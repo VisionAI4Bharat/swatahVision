@@ -1,0 +1,6 @@
+onnx==1.17.0
+onnxruntime
+onnxruntime-gpu==1.23.2
+opencv-python==4.11.0.86
+openvino==2024.6.0
+openpyxl==3.1.5

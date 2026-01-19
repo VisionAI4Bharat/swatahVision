@@ -1,0 +1,5 @@
+onnx-graphsurgeon==0.5.8
+onnx-ir==0.1.11
+onnxscript==0.5.4
+openvino-dev==2024.6.0
+openvino-telemetry==2025.2.0
