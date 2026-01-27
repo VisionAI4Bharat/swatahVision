@@ -23,7 +23,7 @@ box_annotator = sv.BoxAnnotator(sv.Color.YELLOW)
 # - CPU inference
 # ---------------------------------------------
 model = sv.Model(
-    model="retinanet-resnet50-fpn-13", engine=sv.Engine.OPENVINO, hardware=sv.Hardware.CPU
+    model="retinanet-resnet50-fpn.xml", engine=sv.Engine.OPENVINO, hardware=sv.Hardware.CPU
 )
 
 # ---------------------------------------------

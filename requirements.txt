@@ -1,5 +1,11 @@
+tqdm==4.67.1
+scipy==1.17.0
+matplotlib==3.10.8
+pillow==12.1.0
+platformdirs==4.5.1
+requests==2.32.5
 onnx==1.17.0
-onnxruntime
+onnxruntime==1.23.2
 onnxruntime-gpu==1.23.2
 opencv-python==4.11.0.86
 openvino==2024.6.0

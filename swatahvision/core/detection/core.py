@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from typing import Any, Iterator, Self
 from functools import reduce
 import numpy as np
+import cv2
 
 from swatahvision.core.detection.utils.internal import (
     is_data_equal, 
@@ -45,6 +46,58 @@ class Detections:
     tracker_id: np.ndarray | None = None
     data: dict[str, np.ndarray | list] = field(default_factory=dict)
     metadata: dict[str, Any] = field(default_factory=dict)
+    
+    def __post_init__(self):
+        validate_detections_fields(
+            xyxy=self.xyxy,
+            mask=self.mask,
+            confidence=self.confidence,
+            class_id=self.class_id,
+            tracker_id=self.tracker_id,
+            data=self.data,
+    )
+    
+    @classmethod
+    def from_yolo(cls, yolo_results, conf_threshold: int=None, nms_threshold: float=None, class_agnostic: bool=False) -> Self:
+        raw_outputs, meta = yolo_results
+        
+        output = raw_outputs[0]
+        pred = output[0].transpose(1, 0)
+        
+        boxes = pred[:, :4]
+        scores = pred[:, 4:]
+        
+        class_ids = scores.argmax(axis=1)
+        confidences = scores.max(axis=1)
+
+        if conf_threshold is not None:
+            mask = confidences > conf_threshold
+            boxes = boxes[mask]
+            confidences = confidences[mask]
+            class_ids = class_ids[mask]
+
+        cx, cy, w, h = boxes.T
+        boxes = np.stack(
+            [cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2],
+        axis=1
+        )
+        
+        boxes = scale_boxes(boxes=boxes, meta=meta)
+        
+        detections = cls(
+            xyxy=boxes,
+            confidence=confidences,
+            class_id=class_ids,
+        )
+        
+        if nms_threshold is not None:
+            detections = detections.with_nms(
+                threshold=nms_threshold,
+                class_agnostic=class_agnostic,
+                overlap_metric=OverlapMetric.IOU,
+            )
+        
+        return detections
     
     @classmethod
     def from_ssd(cls, ssd_results, conf_threshold: int=0.5) -> Self:

@@ -5,7 +5,7 @@ import swatahvision as sv
 # - ONNX inference engine
 # - Running on CPU
 # ---------------------------------------------
-model = sv.Model(model="resnet18-13", engine=sv.Engine.ONNX, hardware=sv.Hardware.CPU)
+model = sv.Model(model="resnet18.onnx", engine=sv.Engine.ONNX, hardware=sv.Hardware.CPU)
 
 # ---------------------------------------------
 # Load input image from file

@@ -23,7 +23,7 @@ box_annotator = sv.BoxAnnotator(sv.Color.YELLOW)
 # - CPU inference
 # ---------------------------------------------
 model = sv.Model(
-    model="ssdlite-mobilenetv3-13", engine=sv.Engine.OPENVINO, hardware=sv.Hardware.CPU
+    model="ssdlite-mobilenetv3.xml", engine=sv.Engine.OPENVINO, hardware=sv.Hardware.CPU
 )
 
 # ---------------------------------------------

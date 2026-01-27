@@ -6,7 +6,7 @@ import swatahvision as sv
 # - Running on CPU
 # ---------------------------------------------
 model = sv.Model(
-    model="mobilenetv2-10", engine=sv.Engine.ONNX, hardware=sv.Hardware.CPU
+    model="mobilenetv2.onnx", engine=sv.Engine.ONNX, hardware=sv.Hardware.CPU
 )
 
 # ---------------------------------------------

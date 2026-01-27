@@ -18,12 +18,12 @@ label_annotator = sv.LabelAnnotator(
 box_annotator = sv.BoxAnnotator(sv.Color.YELLOW)
 
 # ---------------------------------------------
-# Load SSD Lite MobileNetV3 model
+# Load Yolo8n model
 # - ONNX runtime
 # - CPU inference
 # ---------------------------------------------
 model = sv.Model(
-    model="ssdlite-mobilenetv3.onnx", engine=sv.Engine.ONNX, hardware=sv.Hardware.CPU
+    model="yolov8n.xml", engine=sv.Engine.OPENVINO, hardware=sv.Hardware.CPU
 )
 
 # ---------------------------------------------
@@ -40,7 +40,7 @@ outs = model(image)
 # Convert model output to detections
 # Apply confidence threshold
 # ---------------------------------------------
-detections = sv.Detections.from_ssd(outs, conf_threshold=0.5)
+detections = sv.Detections.from_yolo(outs, conf_threshold=0.5)
 
 # ---------------------------------------------
 # Draw labels (class name, confidence, etc.)

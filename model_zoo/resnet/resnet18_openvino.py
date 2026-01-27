@@ -5,7 +5,7 @@ import swatahvision as sv
 # - OpenVino inference engine
 # - Running on CPU
 # ---------------------------------------------
-model = sv.Model(model="resnet18-13", engine=sv.Engine.OPENVINO, hardware=sv.Hardware.CPU)
+model = sv.Model(model="resnet18.xml", engine=sv.Engine.OPENVINO, hardware=sv.Hardware.CPU)
 
 # ---------------------------------------------
 # Load input image from file

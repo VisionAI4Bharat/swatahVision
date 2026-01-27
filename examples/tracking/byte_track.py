@@ -13,7 +13,7 @@ tracker = sv.ByteTrack(frame_rate=30)
 # - Running on GPU
 # ---------------------------------------------
 model = sv.Model(
-    model="retinanet-resnet50-fpn-13",
+    model="retinanet-resnet50-fpn.onnx",
     engine=sv.Engine.ONNX,
     hardware=sv.Hardware.GPU,
 )

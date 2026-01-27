@@ -48,3 +48,18 @@ pytest_cache/
 
 .DS_Store
 Thumbs.db
+
+*.onnx
+*.xml
+*.bin
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.tflite
+*.pb
+
+*.avi
+*.mp4
+*.mov
+*.mkv
