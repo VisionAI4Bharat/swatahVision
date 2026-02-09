@@ -1,6 +1,6 @@
 [project]
 name = "swatahvision"
-version = "0.1.0"
+version = "0.1.1"
 description = "swatah vision Python package"
 authors = [
     { name = "swatah.ai", email = "git@swatah.ai" }
