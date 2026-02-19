@@ -1,0 +1,19 @@
+/* ==============================
+   SWATAH.AI BRAND THEME
+============================== */
+
+[data-md-color-scheme="slate"] {
+
+  /* NAVBAR */
+  --md-primary-fg-color: #0a2e6c;
+
+  /* hover shades */
+  --md-primary-fg-color--light: #0a2e6c;
+  --md-primary-fg-color--dark: #0a2e6c;
+
+  /* links / buttons */
+  --md-accent-fg-color: #46bbe3;
+
+  /* page background */
+  --md-default-bg-color: #0f172a;
+}

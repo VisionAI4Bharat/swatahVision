@@ -1,0 +1,83 @@
+site_name: swatahVision
+# site_url: https://github.com/VisionAI4Bharat/swatahvision
+
+repo_url: https://github.com/VisionAI4Bharat/swatahVision
+repo_name: VisionAI4Bharat/SwatahVision
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  custom_dir: docs/overrides
+
+  font:
+    text: Roboto
+    code: JetBrains Mono
+
+  palette:
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Dark Mode (default feeling)
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  extra_css:
+  - stylesheets/extra.css
+
+  features:
+    - content.code.copy
+    - navigation.tabs
+    - navigation.sections
+
+nav:
+  # - Home: index.md
+  - Getting Started: 
+    - Installation: getting_started/install.md
+
+  - Core:
+    - Classification: core/classification/core.md
+    - Detection: core/detection/core.md
+    - Utils:
+      - Image: core/utils/image.md
+      - Video: core/utils/video.md
+
+  - Model Zoo: 
+    - Classification: 
+        - ImageNet: model_zoo/classificaion/imagenet.md
+    - Detection: 
+        - COCO: model_zoo/detection/coco.md
+    - Human:
+        - Face Detection: model_zoo/human/face_detection.md
+        - Emotion Detection: model_zoo/human/emotion_detection.md
+        - Pose Estimation: model_zoo/human/pose_estimation.md
+
+  - Annotators: 
+    - Bounding Box: annotators/box.md
+    - Label: annotators/label.md
+    - HeatMap: annotators/heatmap.md
+
+  - Trackers:
+    - Byte Track: trackers/bytetrack.md
+
+  - Runtime Engine:
+      ONNX: runtime/onnx.md
+      OpenVino: runtime/openvino.md
+      Tflite: runtime/tflite.md
+
+  - Examples:
+      Count People In Zone: examples/count_people_in_zone.md
+      Speed Estimation: examples/speed_estimation.md
+
+
+

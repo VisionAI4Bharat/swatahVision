@@ -49,6 +49,8 @@ pytest_cache/
 .DS_Store
 Thumbs.db
 
+site/
+
 *.onnx
 *.xml
 *.bin
