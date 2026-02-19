@@ -1,4 +1,8 @@
-# **swatahVision**
+<p align="center">
+  <img src="assets/cover.png" alt="SwatahVision Cover" width="100%">
+</p>
+
+
 ### An open-source Vision AI stack for real-world applications
 
 **swatahVision** is an **open-source Vision AI stack** that brings together **models, runtimes, post-processing, tracking, and visualization** into a clean, reusable Python package.
