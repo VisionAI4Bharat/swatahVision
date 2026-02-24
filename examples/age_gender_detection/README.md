@@ -10,12 +10,14 @@ and prints the predicted **age** and **gender** in the terminal.
 ---
 
 ## 📁 Folder Structure
+
+
 examples/
 └── age_gender_openvino/
-    ├── age-gender-recognition-retail-0013_openvino.py
-    ├── README.md
-    └── assets/
-        └── face.jpg
+├── age-gender-recognition-retail-0013_openvino.py
+├── README.md
+└── assets/
+└── face.jpg
 
 ---
 
