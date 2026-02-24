@@ -108,14 +108,4 @@ The script prints the predicted **age** and **gender** in the terminal:
 - **Atharva Kotkar**
 - **Aarav Agarwal**  
 - *MIT Internship – Swatah AI*
-  
-⚠️ Notes
-
-This example expects a cropped face, not a full image
-The model supports single-face inference
-Predictions may vary based on face quality
-
-👨‍💻 Author
--Atharva Kotkar
--Aarav Agarwal 
--MIT Internship – Swatah AI
+ 
