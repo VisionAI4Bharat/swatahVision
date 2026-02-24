@@ -51,16 +51,7 @@ This demo performs human pose estimation using the MoveNet model. It detects 17 
 
 ## run example
 
-- movenet onnx for Image
-
-    ```bash
-    python movenet_pose_onnx.py \
-        --source_weights_path data/movenet.onnx \
-        --source_image_path data/sample.jpg \
-        --output_path outputs/pose_output.jpg \
-        --confidence_threshold 0.3
-    ```
-- movenet onnx for Video
+- movenet onnx
 
     ```bash
     python movenet_pose_onnx.py \
