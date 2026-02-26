@@ -87,8 +87,6 @@ class OpenVinoRuntimeEngine(RuntimeEngine):
         
         def process_single(img):
             img, scale, pad_x, pad_y = letterbox(img)
-            img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-            img = img.astype(np.float32) / 255.0
             img = np.transpose(img, (2, 0, 1))  # CHW
             return img, scale, pad_x, pad_y
         
