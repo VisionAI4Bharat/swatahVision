@@ -78,6 +78,5 @@ nav:
   - Examples:
       Count People In Zone: examples/count_people_in_zone.md
       Speed Estimation: examples/speed_estimation.md
-
-
+      Pose Estimation: examples/pose_estimation.md
 
