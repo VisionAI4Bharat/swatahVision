@@ -1,10 +1,9 @@
 # Pose Estimation using MoveNet (ONNX)
-
 This project demonstrates **human pose estimation** using a MoveNet ONNX model.
 It supports image and video inference and provides structured pose outputs (keypoints + confidence) along with visualization.
-
----
-
+--------------------------------------------------------------------------------------------------------------
+Download Model : https://huggingface.co/swatah/swatahvision/tree/main/pose/movenet
+--------------------------------------------------------------------------------------------------------------
 ## 🚀 Features
 
 * MoveNet ONNX inference (CPU)
@@ -190,8 +189,4 @@ Pipeline:
 3. Make changes
 4. Open Pull Request
 
----
-
-## 📄 License
-
-Add your license here (MIT recommended).
+----
