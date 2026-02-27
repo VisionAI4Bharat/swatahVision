@@ -7,22 +7,7 @@ using the *age-gender-recognition-retail-0013* model through the
 The script loads *face images, runs inference on **CPU*,  
 and prints the predicted *age* and *gender* in the terminal.
 
----
 
-## 📁 Folder Structure
-
-
-age_gender_project/
-├── age-gender-recognition-retail-0013.xml
-├── age-gender-recognition-retail-0013.bin
-├── age_gender_prediction.py
-├── age_gender.md
-└── assets/
-├── image_old_man.jpg
-└── image_boy.jpg
-
-
----
 
 ## 🖼 Required Input Images
 
@@ -60,7 +45,7 @@ You may use *any face images* (male or female).
 
 ### 1️⃣ Create and Activate Conda Environment (Recommended)
 
-```bash
+
 conda create -n swatah_env python=3.9 -y
 conda activate swatah_env
 2️⃣ Install Required Dependencies
@@ -75,6 +60,8 @@ python age_gender_prediction.py
 🧪 Code Explanation
 Import Required Libraries
 import swatahvision as sv
+
+```bash
 import numpy as np
 import cv2
 Load Age & Gender Model
@@ -108,7 +95,7 @@ age = int(age_blob[0][0][0][0] * 100)
 The model outputs age as a normalized value (0–1)
 It is multiplied by 100 to get age in years.
 
-📤 Output
+##📤 Output
 
 The script prints the predicted age and gender in the terminal:
 
@@ -117,7 +104,7 @@ Predicted Gender: Male
 
 Predicted Age   : 14
 Predicted Gender: Male
-🧠 Model Information
+##🧠 Model Information
 
 Model Name: age-gender-recognition-retail-0013
 
@@ -133,7 +120,7 @@ Age → normalized regression value × 100
 
 Gender → probabilities [Female, Male]
 
-⚠️ Notes
+##⚠️ Notes
 
 This example expects cropped face images
 
@@ -149,7 +136,7 @@ Image quality
 
 Age prediction is approximate, not exact
 
-👨‍💻 Author
+###👨‍💻 Author
 
 Aarav Agarwal
 
