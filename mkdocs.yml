@@ -80,5 +80,6 @@ nav:
       Speed Estimation: examples/speed_estimation.md
       Pose Estimation: examples/pose_estimation.md
       Heatmap Tracking: examples/heatmap_tracking.md
+      Time In Zone : examples/time_in_zone.md
 
 
