@@ -1,4 +1,4 @@
-# 📍 Speed Estimation using YOLO (ONNX) + ByteTrack
+# Speed Estimation using YOLO (ONNX) + ByteTrack
 
 This example demonstrates how to estimate the speed of moving objects in a video using computer vision.
 
