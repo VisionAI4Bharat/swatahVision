@@ -8,11 +8,11 @@ Object tracking allows systems to understand movement patterns and trajectories 
 
 This is ideal for:
 
-🚗 Traffic monitoring systems
-🏬 Retail customer movement analysis
-🏭 Industrial object tracking
-🎥 Smart surveillance systems
-📊 Motion analytics in video streams
+- 🚗 Traffic monitoring systems
+- 🏬 Retail customer movement analysis
+- 🏭 Industrial object tracking
+- 🎥 Smart surveillance systems
+- 📊 Motion analytics in video streams
 
 ---
 

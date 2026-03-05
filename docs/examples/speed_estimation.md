@@ -8,11 +8,11 @@ Speed estimation is widely used in intelligent video analytics systems to analyz
 
 This project is ideal for:
 
-🚗 Traffic speed monitorin
-🏙 Smart city surveillance systems
-🚦 Traffic behavior analysis
-🏭 Industrial vehicle monitoring
-📊 Motion analytics in security footage
+- 🚗 Traffic speed monitorin
+- 🏙 Smart city surveillance systems
+- 🚦 Traffic behavior analysis
+- 🏭 Industrial vehicle monitoring
+- 📊 Motion analytics in security footage
 
 ---
 

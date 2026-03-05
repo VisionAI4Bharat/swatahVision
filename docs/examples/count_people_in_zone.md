@@ -6,11 +6,11 @@ It detects and tracks people in a video and determines how many individuals are 
 
 This project is ideal for:
 
-🏬 Retail store occupancy monitoring
-🚪 Entry/exit people counting
-🏫 Classroom or hall occupancy tracking
-🚧 Restricted area monitoring
-🧑‍🤝‍🧑 Crowd density estimation
+- 🏬 Retail store occupancy monitoring
+- 🚪 Entry/exit people counting
+- 🏫 Classroom or hall occupancy tracking
+- 🚧 Restricted area monitoring
+- 🧑‍🤝‍🧑 Crowd density estimation
 
 ---
 
