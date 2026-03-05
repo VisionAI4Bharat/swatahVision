@@ -82,5 +82,6 @@ nav:
       Heatmap Tracking: examples/heatmap_tracking.md
       Time In Zone : examples/time_in_zone.md
       Object Detection : examples/tracking.md
+      Traffic Analysis: examples/traffic_analysis.md
 
 
