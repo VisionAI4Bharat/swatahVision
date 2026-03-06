@@ -1,7 +1,10 @@
 from typing import Union
 from swatahvision.engines.base import RuntimeEngine
 from swatahvision.constraints import Hardware
-import openvino as ov
+try:
+    import openvino as ov
+except ImportError:
+    ov = None
 import numpy as np
 import cv2
 
@@ -21,6 +24,10 @@ class OpenVinoRuntimeEngine(RuntimeEngine):
         return raw_output, meta
 
     def load(self, model_path: str, hardware: Hardware = Hardware.CPU):
+        if ov is None:
+            raise RuntimeError(
+                "OpenVINO is not installed. Install it with `pip install openvino` to use the OpenVINO runtime."
+            )
         provider = {Hardware.GPU: "GPU", Hardware.CPU: "CPU"}[hardware]
         core = ov.Core()
         model = core.read_model(model_path)
@@ -28,7 +35,7 @@ class OpenVinoRuntimeEngine(RuntimeEngine):
         
         self.input_names, self.input_shapes, self.input_dtypes, self.output_names = self.get_model_info(self.compiled_model)
         
-    def get_model_info(cls, compiled_model):
+    def get_model_info(self, compiled_model):
         """
         Returns:
             input_names   : List[str]
@@ -58,7 +65,7 @@ class OpenVinoRuntimeEngine(RuntimeEngine):
                 
         return input_names, input_shapes, input_dtypes, output_names
     
-    def preprocess(cls, input_image, input_type, input_shape: Union[int | tuple[int, int]]):
+    def preprocess(self, input_image, input_type, input_shape: Union[int | tuple[int, int]]):
         
         height, width = input_shape[-2:]
 
