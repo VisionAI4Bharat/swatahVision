@@ -1,13 +1,23 @@
 [project]
-name = "swatahvision"
-version = "0.1.2"
+name = "swatahVision"
+version = "26.03.0b1"
 description = "swatah vision Python package"
 authors = [
     { name = "swatah.ai", email = "git@swatah.ai" }
 ]
-license = { text = "MIT" }
+license = { text = "LGPL-3.0-or-later" }
 readme = "README.md"
 requires-python = ">=3.12"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: OS Independent",
+]
+
+keywords = ["swatah-vision", "ai", "computer-vision"]
+
 dependencies = [
     "numpy",
     "opencv-python",
