@@ -219,8 +219,6 @@ This annotator is particularly useful for applications involving **object tracki
 
 ---
 
-## 👨‍💻 Authors
+## 👨‍💻 Author
 
-- **Atharva Kotkar**  
-- **Aarav Agrawal**  
-- MIT Internship – Swatah AI
+- **Atharva Kotkar**    

@@ -261,7 +261,6 @@ to build complete **visualization pipelines for computer vision models**.
 
 ---
 
-## 👨‍💻 Authors
+## 👨‍💻 Author
 
 - **Atharva Kotkar**  
-- MIT Internship – Swatah AI

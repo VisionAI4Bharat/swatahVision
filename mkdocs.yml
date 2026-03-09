@@ -70,6 +70,7 @@ nav:
     - Bounding Box: annotators/box.md
     - Label: annotators/label.md
     - HeatMap: annotators/heatmap.md
+    - Trace : annotators/trace.md
 
   - Trackers:
     - Byte Track: trackers/bytetrack.md
