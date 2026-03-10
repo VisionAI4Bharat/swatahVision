@@ -15,7 +15,7 @@ model = sv.Model(
 # ---------------------------------------------
 # Load input image from file
 # ---------------------------------------------
-image = sv.Image.load_from_file("assets/sample.jpg")  # Replace with your image
+image = sv.Image.load_from_file("../../assets/cover.png")  # Replace with your image
 
 # ---------------------------------------------
 # Run pose estimation inference
