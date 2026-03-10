@@ -10,7 +10,7 @@ model = sv.Model(model="resnet18.onnx", engine=sv.Engine.ONNX, hardware=sv.Hardw
 # ---------------------------------------------
 # Load input image from file
 # ---------------------------------------------
-image = sv.Image.load_from_file("assets/car.jpg")
+image = sv.Image.load_from_file("../../assets/cover.png")
 
 # ---------------------------------------------
 # Run image classification inference
