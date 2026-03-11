@@ -5,8 +5,8 @@ import os
 import cv2
 import numpy as np
 
-from swatahvision.draw.color import Color
-from swatahvision.geometry.core import Point, Rect
+from swatahVision.draw.color import Color
+from swatahVision.geometry.core import Point, Rect
 
 
 def draw_line(

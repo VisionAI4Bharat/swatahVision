@@ -4,14 +4,14 @@ from functools import reduce
 import numpy as np
 import cv2
 
-from swatahvision.core.detection.utils.internal import (
+from swatahVision.core.detection.utils.internal import (
     is_data_equal, 
     is_metadata_equal, 
     get_data_item, 
     merge_data, 
     merge_metadata,
     )
-from swatahvision.core.detection.utils.iou_and_nms import (
+from swatahVision.core.detection.utils.iou_and_nms import (
     OverlapMetric,
     box_iou_batch,
     box_non_max_merge,
@@ -21,11 +21,11 @@ from swatahvision.core.detection.utils.iou_and_nms import (
     mask_non_max_suppression,
 )
 
-from swatahvision.core.validators import validate_detections_fields
-from swatahvision.core.utils.internal import deprecated, get_instance_variables
-from swatahvision.geometry.core import Position
+from swatahVision.core.validators import validate_detections_fields
+from swatahVision.core.utils.internal import deprecated, get_instance_variables
+from swatahVision.geometry.core import Position
 
-from swatahvision.core.detection.utils.masks import calculate_masks_centroids
+from swatahVision.core.detection.utils.masks import calculate_masks_centroids
 
 def scale_boxes(boxes, meta):
     scale, pad_x, pad_y = meta
@@ -203,7 +203,7 @@ class Detections:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             detections = sv.Detections()
 
@@ -244,7 +244,7 @@ class Detections:
         Example:
             ```python
             import cv2
-            import swatahvision as sv
+            import swatahVision as sv
             from ultralytics import YOLO
 
             image = cv2.imread(<SOURCE_IMAGE_PATH>)
@@ -280,7 +280,7 @@ class Detections:
 
         Example:
             ```python
-            from swatahvision import Detections
+            from swatahVision import Detections
 
             empty_detections = Detections.empty()
             ```
@@ -326,7 +326,7 @@ class Detections:
         Example:
             ```python
             import numpy as np
-            import swatahvision as sv
+            import swatahVision as sv
 
             detections_1 = sv.Detections(
                 xyxy=np.array([[15, 15, 100, 100], [200, 200, 300, 300]]),
@@ -643,7 +643,7 @@ def merge_inner_detection_object_pair(
     Example:
         ```python
         import cv2
-        import swatahvision as sv
+        import swatahVision as sv
         from inference import get_model
 
         image = cv2.imread(<SOURCE_IMAGE_PATH>)

@@ -8,9 +8,15 @@ from collections.abc import Callable
 from typing import Any, Generic, TypeVar
 
 
+<<<<<<< HEAD
 class swatahvisionWarnings(Warning):
     """swatahvision warning category.
     Set the deprecation warnings visibility for swatahvision library.
+=======
+class SwatahVisionWarnings(Warning):
+    """swatahVision warning category.
+    Set the deprecation warnings visibility for swatahVision library.
+>>>>>>> 9275bb1 (v 26.03.01rc1)
     You can set the environment variable SWATAHVISON_DEPRECATION_WARNING to '0' to
     disable the deprecation warnings.
     """

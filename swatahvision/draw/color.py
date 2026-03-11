@@ -4,7 +4,7 @@ from dataclasses import dataclass
 
 import matplotlib.pyplot as plt
 
-from swatahvision.utils.internal import classproperty
+from swatahVision.utils.internal import classproperty
 
 DEFAULT_COLOR_PALETTE = [
     "A351FB",
@@ -76,7 +76,7 @@ class Color:
 
     Example:
         ```python
-        import swatahvision as sv
+        import swatahVision as sv
 
         sv.Color.WHITE
         # Color(r=255, g=255, b=255)
@@ -114,7 +114,7 @@ class Color:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             sv.Color.from_hex('#ff00ff')
             # Color(r=255, g=0, b=255)
@@ -144,7 +144,7 @@ class Color:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             sv.Color.from_rgb_tuple((255, 255, 0))
             # Color(r=255, g=255, b=0)
@@ -167,7 +167,7 @@ class Color:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             sv.Color.from_bgr_tuple((0, 255, 255))
             # Color(r=255, g=255, b=0)
@@ -185,7 +185,7 @@ class Color:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             sv.Color(r=255, g=255, b=0).as_hex()
             # '#ffff00'
@@ -202,7 +202,7 @@ class Color:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             sv.Color(r=255, g=255, b=0).as_rgb()
             # (255, 255, 0)
@@ -219,7 +219,7 @@ class Color:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             sv.Color(r=255, g=255, b=0).as_bgr()
             # (0, 255, 255)
@@ -285,7 +285,7 @@ class ColorPalette:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             sv.ColorPalette.DEFAULT
             # ColorPalette(colors=[Color(r=255, g=64, b=64), Color(r=255, g=161, b=160), ...])
@@ -306,7 +306,7 @@ class ColorPalette:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             sv.ColorPalette.ROBOFLOW
             # ColorPalette(colors=[Color(r=194, g=141, b=252), Color(r=163, g=81, b=251), ...])
@@ -334,7 +334,7 @@ class ColorPalette:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             sv.ColorPalette.from_hex(['#ff0000', '#00ff00', '#0000ff'])
             # ColorPalette(colors=[Color(r=255, g=0, b=0), Color(r=0, g=255, b=0), ...])
@@ -357,7 +357,7 @@ class ColorPalette:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             sv.ColorPalette.from_matplotlib('viridis', 5)
             # ColorPalette(colors=[Color(r=68, g=1, b=84), Color(r=59, g=82, b=139), ...])
@@ -389,7 +389,7 @@ class ColorPalette:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             color_palette = sv.ColorPalette.from_hex(['#ff0000', '#00ff00', '#0000ff'])
             color_palette.by_idx(1)

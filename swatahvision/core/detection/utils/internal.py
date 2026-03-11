@@ -7,9 +7,9 @@ import cv2
 import numpy as np
 import numpy.typing as npt
 
-from swatahvision.config import CLASS_NAME_DATA_FIELD
-from swatahvision.core.detection.utils.converters import polygon_to_mask
-from swatahvision.geometry.core import Vector
+from swatahVision.config import CLASS_NAME_DATA_FIELD
+from swatahVision.core.detection.utils.converters import polygon_to_mask
+from swatahVision.geometry.core import Vector
 
 
 def extract_ultralytics_masks(yolov8_results) -> np.ndarray | None:

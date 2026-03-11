@@ -1,11 +1,11 @@
 import numpy as np
 
-from swatahvision.annotators.base import BaseAnnotator
-from swatahvision.annotators.utils import ColorLookup, resolve_color
-from swatahvision.draw.color import Color, ColorPalette
-from swatahvision.draw.base import ImageType
+from swatahVision.annotators.base import BaseAnnotator
+from swatahVision.annotators.utils import ColorLookup, resolve_color
+from swatahVision.draw.color import Color, ColorPalette
+from swatahVision.draw.base import ImageType
 
-from swatahvision.core.detection.core import Detections
+from swatahVision.core.detection.core import Detections
 
 import cv2
 
@@ -56,7 +56,7 @@ class BoxAnnotator(BaseAnnotator):
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             image = ...
             detections = sv.Detections(...)
@@ -69,7 +69,7 @@ class BoxAnnotator(BaseAnnotator):
             ```
 
         ![bounding-box-annotator-example](https://media.roboflow.com/
-        swatahvision-annotator-examples/bounding-box-annotator-example-purple.png)
+        swatahVision-annotator-examples/bounding-box-annotator-example-purple.png)
         """
         assert isinstance(scene, np.ndarray)
         for detection_idx in range(len(detections)):
