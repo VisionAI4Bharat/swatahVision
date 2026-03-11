@@ -23,13 +23,13 @@ box_annotator = sv.BoxAnnotator(sv.Color.YELLOW)
 # - CPU inference
 # ---------------------------------------------
 model = sv.Model(
-    model="retinanet-resnet50-fpn-13", engine=sv.Engine.ONNX, hardware=sv.Hardware.CPU
+    model="retinanet-resnet50-fpn-13.onnx", engine=sv.Engine.ONNX, hardware=sv.Hardware.CPU
 )
 
 # ---------------------------------------------
 # Load input image from file
 # ---------------------------------------------
-image = sv.Image.load_from_file("assets/car.jpg")
+image = sv.Image.load_from_file("car.jpg")
 
 # ---------------------------------------------
 # Run object detection on the image
