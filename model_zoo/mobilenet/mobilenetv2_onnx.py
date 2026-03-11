@@ -1,4 +1,4 @@
-import swatahvision as sv
+import swatahVision as sv
 
 # ---------------------------------------------
 # Load MobileNetV2 classification model
