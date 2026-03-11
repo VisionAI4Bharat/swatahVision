@@ -49,7 +49,11 @@ The code uses the following libraries:
 
 - **NumPy** → handles numerical data
 - **OpenCV (cv2)** → image processing and drawing
+<<<<<<< HEAD
 - **swatahvision modules** → detections and annotation utilities
+=======
+- **swatahVision modules** → detections and annotation utilities
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 
 ---
 
@@ -274,7 +278,7 @@ This creates a **semi-transparent overlay**.
 Example usage in a video processing pipeline:
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 heat_map_annotator = sv.HeatMapAnnotator()
 

@@ -51,7 +51,11 @@ This code uses the following libraries:
 
 - **NumPy** → handles numerical data
 - **OpenCV (cv2)** → draws rectangles on images
+<<<<<<< HEAD
 - **swatahvision modules** → manage detections and annotation tools
+=======
+- **swatahVision modules** → manage detections and annotation tools
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 
 ---
 
@@ -230,7 +234,7 @@ return scene
 Example of how this annotator might be used:
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 image = ...
 detections = sv.Detections(...)

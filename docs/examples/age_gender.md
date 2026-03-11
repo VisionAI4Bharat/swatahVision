@@ -1,11 +1,26 @@
+<<<<<<< HEAD
 # Age & Gender Prediction using swatahvision (OpenVINO Engine)
 
 This example demonstrates how to perform **Age and Gender prediction**
 using the **age-gender-recognition-retail-0013** model through the  
 **swatahvision framework**, powered internally by the **OpenVINO engine**.
+=======
+# Age & Gender Prediction using swatahVision (OpenVINO Engine)
+
+This example demonstrates how to perform **Age and Gender prediction**
+using the **age-gender-recognition-retail-0013** model through the  
+**swatahVision framework**, powered internally by the **OpenVINO engine**.
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 
 The script loads two face images, runs inference on **CPU**,  
 and prints the predicted **age** and **gender** in the terminal.
+
+
+## 📥 Model Download
+
+Pretrained models for **swatahVision** are available in the Model Zoo.
+
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 
 ---
 
@@ -23,28 +38,16 @@ age_gender_project/
 
 ---
 
-## 📥 Model Download
-
-Download the model from Hugging Face:
-
-🔗 **Model Repository:**  
-[https://huggingface.co/swatah/swatahvision/tree/main/classifiation/age-gender-recognition-retail-0013](https://huggingface.co/swatah/swatahvision/tree/main/classifiation/age-gender-recognition-retail-0013)
-
-Download the following files:
-
-- `age-gender-recognition-retail-0013.xml`
-- `age-gender-recognition-retail-0013.bin`
-
-Place both files inside your project root directory.
-
----
-
 ## 🔧 Requirements
 
 - Python 3.9+
 - NumPy
 - OpenCV
+<<<<<<< HEAD
 - swatahvision
+=======
+- swatahVision
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 
 ---
 
@@ -62,7 +65,7 @@ conda activate swatah_env
 ```bash
 pip install numpy
 pip install opencv-python
-pip install swatahvision
+pip install swatahVision
 ```
 
 ---
@@ -80,7 +83,7 @@ python age_gender_prediction.py
 Below is the exact code used in this project:
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 import numpy as np
 import cv2
 
@@ -145,7 +148,11 @@ Predicted Gender: Male
 # 🧠 Model Information
 
 - **Model Name:** `age-gender-recognition-retail-0013`
+<<<<<<< HEAD
 - **Framework:** swatahvision
+=======
+- **Framework:** swatahVision
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 - **Inference Engine:** OpenVINO (internal)
 - **Hardware:** CPU
 - **Age Output:** Normalized value × 100
@@ -161,9 +168,3 @@ Predicted Gender: Male
 - Accuracy depends on lighting and image quality.
 
 ---
-
-# 👨‍💻 Authors
-
-- **Atharva Kotkar**  
-- **Aarav Agarwal**  
-- MIT Internship – Swatah AI

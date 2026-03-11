@@ -2,7 +2,11 @@
 
 This example demonstrates how to perform **image classification**
 using the **MobileNetV2** model through the  
+<<<<<<< HEAD
 **swatahvision framework**, powered internally by the **OpenVINO engine**.
+=======
+**swatahVision framework**, powered internally by the **OpenVINO engine**.
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 
 The script loads an input image, runs inference on **CPU**,  
 and prints the **top-5 predicted classes** in the terminal.
@@ -25,10 +29,9 @@ mobilenet_classification/
 
 ## 📥 Model Download
 
-Download the MobileNetV2 model from Hugging Face:
+Pretrained models for **swatahVision** are available in the Model Zoo.
 
-🔗 **Model Repository:**  
-[https://huggingface.co/swatah/swatahvision/tree/main/classifiation/mobilenetv2](https://huggingface.co/swatah/swatahvision/tree/main/classifiation/mobilenetv2)
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 
 Download the following files:
 
@@ -59,9 +62,15 @@ You may use **any object image** for classification.
 - Python 3.9+
 - NumPy
 - OpenCV
+<<<<<<< HEAD
 - swatahvision  
 
 > OpenVINO is used internally by swatahvision.  
+=======
+- swatahVision  
+
+> OpenVINO is used internally by swatahVision.  
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 > You do **NOT** need to write OpenVINO code manually.
 
 ---
@@ -80,7 +89,7 @@ conda activate swatah_env
 ```bash
 pip install numpy
 pip install opencv-python
-pip install swatahvision
+pip install swatahVision
 ```
 
 ---
@@ -96,7 +105,7 @@ python mobilenet_classification.py
 # 🧪 Complete Source Code
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 model = sv.Model(
     model="mobilenetv2.xml",
@@ -118,7 +127,11 @@ print(classification)
 # 🧠 Model Information
 
 - **Model Name:** MobileNetV2  
+<<<<<<< HEAD
 - **Framework:** swatahvision  
+=======
+- **Framework:** swatahVision  
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 - **Inference Engine:** OpenVINO (internal)  
 - **Hardware:** CPU  
 - **Task:** Image Classification  

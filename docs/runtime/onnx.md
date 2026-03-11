@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # ONNX Runtime Engine for swatahvision
 
 This code creates a **custom inference engine** that allows models in **ONNX format** to run inside the **swatahvision framework**.
+=======
+# ONNX Runtime Engine for swatahVision
+
+This code creates a **custom inference engine** that allows models in **ONNX format** to run inside the **swatahVision framework**.
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 
 In simple terms, it helps the system:
 
@@ -37,9 +43,15 @@ OnnxRuntimeEngine
 
 This class connects:
 
+<<<<<<< HEAD
 **swatahvision → ONNX Runtime**
 
 So that swatahvision can run ONNX models easily.
+=======
+**swatahVision → ONNX Runtime**
+
+So that swatahVision can run ONNX models easily.
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 
 ---
 
@@ -295,7 +307,11 @@ Return Prediction
 
 This engine allows:
 
+<<<<<<< HEAD
 - Running ONNX models inside swatahvision
+=======
+- Running ONNX models inside swatahVision
+>>>>>>> a64a1fb (doc 26.03.01rc1)
 - Supporting both CPU and GPU
 - Automatically handling image preprocessing
 - Supporting single and batch inputs
@@ -309,7 +325,11 @@ It simplifies the process of **deploying ONNX models in computer vision applicat
 This code builds a bridge between:
 
 ```
+<<<<<<< HEAD
 swatahvision Framework
+=======
+swatahVision Framework
+>>>>>>> a64a1fb (doc 26.03.01rc1)
         ↓
 ONNX Runtime Engine
         ↓
