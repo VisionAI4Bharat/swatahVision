@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-from swatahvision.core.detection.core import Detections
-from swatahvision.draw.base import ImageType 
+from swatahVision.core.detection.core import Detections
+from swatahVision.draw.base import ImageType 
 
 
 class BaseAnnotator(ABC):

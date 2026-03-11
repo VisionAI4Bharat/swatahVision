@@ -1,11 +1,11 @@
 import numpy as np
 
-from swatahvision.core.detection.core import Detections
-from swatahvision.core.detection.utils.iou_and_nms import box_iou_batch
-from swatahvision.tracker.byte_tracker import matching
-from swatahvision.tracker.byte_tracker.kalman_filter import KalmanFilter
-from swatahvision.tracker.byte_tracker.single_object_track import STrack, TrackState
-from swatahvision.tracker.byte_tracker.utils import IdCounter
+from swatahVision.core.detection.core import Detections
+from swatahVision.core.detection.utils.iou_and_nms import box_iou_batch
+from swatahVision.tracker.byte_tracker import matching
+from swatahVision.tracker.byte_tracker.kalman_filter import KalmanFilter
+from swatahVision.tracker.byte_tracker.single_object_track import STrack, TrackState
+from swatahVision.tracker.byte_tracker.utils import IdCounter
 
 
 class ByteTrack:
@@ -72,7 +72,7 @@ class ByteTrack:
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
             from ultralytics import YOLO
 
             model = YOLO(<MODEL_PATH>)

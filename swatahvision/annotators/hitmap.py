@@ -1,13 +1,13 @@
 import cv2
 import numpy as np
 import numpy.typing as npt
-from swatahvision.annotators.base import BaseAnnotator
-from swatahvision.geometry.core import Position
-from swatahvision.core.detection.core import Detections
-from swatahvision.utils.conversion import (
+from swatahVision.annotators.base import BaseAnnotator
+from swatahVision.geometry.core import Position
+from swatahVision.core.detection.core import Detections
+from swatahVision.utils.conversion import (
     ensure_cv2_image_for_class_method,
 )
-from swatahvision.draw.base import ImageType
+from swatahVision.draw.base import ImageType
 
 
 class HeatMapAnnotator(BaseAnnotator):

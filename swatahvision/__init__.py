@@ -1,20 +1,20 @@
-from swatahvision.model.base import Model
+from swatahVision.model.base import Model
 
-from swatahvision.core.detection.core import Detections
-from swatahvision.core.classification.core import Classification
+from swatahVision.core.detection.core import Detections
+from swatahVision.core.classification.core import Classification
 
-from swatahvision.draw.ui import UI
+from swatahVision.draw.ui import UI
 
-from swatahvision.annotators.box import BoxAnnotator
-from swatahvision.annotators.label import LabelAnnotator
-from swatahvision.annotators.trace import TraceAnnotator
-from swatahvision.annotators.color import ColorAnnotator
-from swatahvision.annotators.hitmap import HeatMapAnnotator
+from swatahVision.annotators.box import BoxAnnotator
+from swatahVision.annotators.label import LabelAnnotator
+from swatahVision.annotators.trace import TraceAnnotator
+from swatahVision.annotators.color import ColorAnnotator
+from swatahVision.annotators.hitmap import HeatMapAnnotator
 
-from swatahvision.draw.image import Image
-from swatahvision.draw.color import ColorPalette, Color
+from swatahVision.draw.image import Image
+from swatahVision.draw.color import ColorPalette, Color
 
-from swatahvision.draw.utils import (
+from swatahVision.draw.utils import (
     calculate_optimal_line_thickness,
     calculate_optimal_text_scale,
     draw_filled_polygon,
@@ -26,15 +26,15 @@ from swatahvision.draw.utils import (
     draw_text,
 )
 
-from swatahvision.core.detection.tools.polygon_zone import PolygonZone, PolygonZoneAnnotator
+from swatahVision.core.detection.tools.polygon_zone import PolygonZone, PolygonZoneAnnotator
 
-from swatahvision.geometry.core import Position, Point
-from swatahvision.geometry.utils import get_polygon_center
-from swatahvision.constraints import Engine, Hardware
+from swatahVision.geometry.core import Position, Point
+from swatahVision.geometry.utils import get_polygon_center
+from swatahVision.constraints import Engine, Hardware
 
-from swatahvision.tracker.byte_tracker.core import ByteTrack
+from swatahVision.tracker.byte_tracker.core import ByteTrack
 
-from swatahvision.utils.video import (
+from swatahVision.utils.video import (
     FPSMonitor,
     VideoInfo,
     VideoSink,
@@ -42,8 +42,8 @@ from swatahvision.utils.video import (
     process_video,
 )
 
-from swatahvision.config import APP_NAME, APP_AUTHOR
-from swatahvision.utils.file import get_cache_dir
+from swatahVision.config import APP_NAME, APP_AUTHOR
+from swatahVision.utils.file import get_cache_dir
 
 print(f"[debug] Cache dir: {get_cache_dir()}")
 

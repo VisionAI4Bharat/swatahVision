@@ -1,10 +1,10 @@
-from swatahvision.engines.base import RuntimeEngine
-from swatahvision.constraints import Engine, Hardware
-from swatahvision.utils import file
+from swatahVision.engines.base import RuntimeEngine
+from swatahVision.constraints import Engine, Hardware
+from swatahVision.utils import file
 from pathlib import Path
 
-from swatahvision.engines.runtime_onnx import OnnxRuntimeEngine
-from swatahvision.engines.runtime_openvino import OpenVinoRuntimeEngine
+from swatahVision.engines.runtime_onnx import OnnxRuntimeEngine
+from swatahVision.engines.runtime_openvino import OpenVinoRuntimeEngine
 
 class ModelResolver():
     def resolve(self, model: str, engine: Engine=Engine.ONNX, hardware: Hardware=Hardware.CPU) -> RuntimeEngine:

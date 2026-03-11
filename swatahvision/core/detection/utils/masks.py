@@ -32,7 +32,7 @@ def move_masks(
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         mask = np.array([[[False, False, False, False],
                          [False, True,  True,  False],
@@ -133,7 +133,7 @@ def contains_holes(mask: npt.NDArray[np.bool_]) -> bool:
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         mask = np.array([
             [0, 0, 0, 0, 0],
@@ -195,7 +195,7 @@ def contains_multiple_segments(
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         mask = np.array([
             [0, 0, 0, 0, 0, 0],
@@ -306,7 +306,7 @@ def filter_segments_by_distance(
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         mask = np.array([
             [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],

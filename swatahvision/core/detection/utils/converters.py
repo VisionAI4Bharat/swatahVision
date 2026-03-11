@@ -57,7 +57,7 @@ def xywh_to_xyxy(xywh: np.ndarray) -> np.ndarray:
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         xywh = np.array([
             [10, 20, 30, 40],
@@ -94,7 +94,7 @@ def xyxy_to_xywh(xyxy: np.ndarray) -> np.ndarray:
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         xyxy = np.array([
             [10, 20, 40, 60],
@@ -131,7 +131,7 @@ def xcycwh_to_xyxy(xcycwh: np.ndarray) -> np.ndarray:
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         xcycwh = np.array([
             [50, 50, 20, 30],
@@ -169,7 +169,7 @@ def xyxy_to_xcycarh(xyxy: np.ndarray) -> np.ndarray:
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         xyxy = np.array([
             [10, 20, 40, 60],
@@ -246,7 +246,7 @@ def xyxy_to_mask(boxes: np.ndarray, resolution_wh: tuple[int, int]) -> np.ndarra
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         boxes = np.array([[0, 0, 2, 2]])
 

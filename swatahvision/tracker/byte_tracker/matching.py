@@ -5,10 +5,10 @@ from typing import TYPE_CHECKING
 import numpy as np
 from scipy.optimize import linear_sum_assignment
 
-from swatahvision.core.detection.utils.iou_and_nms import box_iou_batch
+from swatahVision.core.detection.utils.iou_and_nms import box_iou_batch
 
 if TYPE_CHECKING:
-    from swatahvision.tracker.byte_tracker.core import STrack
+    from swatahVision.tracker.byte_tracker.core import STrack
 
 
 def indices_to_matches(

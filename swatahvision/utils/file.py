@@ -1,6 +1,6 @@
 from pathlib import Path
 from platformdirs import user_cache_dir
-from swatahvision.config import APP_NAME, APP_AUTHOR
+from swatahVision.config import APP_NAME, APP_AUTHOR
 
 def get_cache_dir() -> Path:
     cache_dir = Path(user_cache_dir(APP_NAME, APP_AUTHOR))

@@ -3,7 +3,7 @@ from __future__ import annotations
 import numpy as np
 import numpy.typing as npt
 
-from swatahvision.core.detection.utils.iou_and_nms import box_iou_batch
+from swatahVision.core.detection.utils.iou_and_nms import box_iou_batch
 
 
 def clip_boxes(xyxy: np.ndarray, resolution_wh: tuple[int, int]) -> np.ndarray:
@@ -25,7 +25,7 @@ def clip_boxes(xyxy: np.ndarray, resolution_wh: tuple[int, int]) -> np.ndarray:
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         xyxy = np.array([
             [10, 20, 300, 200],
@@ -70,7 +70,7 @@ def pad_boxes(xyxy: np.ndarray, px: int, py: int | None = None) -> np.ndarray:
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         xyxy = np.array([
             [10, 20, 30, 40],
@@ -121,7 +121,7 @@ def denormalize_boxes(
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         xyxy = np.array([
             [0.1, 0.2, 0.5, 0.6],
@@ -139,7 +139,7 @@ def denormalize_boxes(
 
         ```
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         xyxy = np.array([
             [256., 128., 768., 640.]
@@ -176,7 +176,7 @@ def move_boxes(
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         xyxy = np.array([
             [10, 10, 20, 20],
@@ -211,7 +211,7 @@ def move_oriented_boxes(
     Examples:
     ```python
     import numpy as np
-    import swatahvision as sv
+    import swatahVision as sv
 
     xyxyxyxy = np.array([
         [
@@ -268,7 +268,7 @@ def scale_boxes(
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         xyxy = np.array([
             [10, 10, 20, 20],

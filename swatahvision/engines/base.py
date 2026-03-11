@@ -6,7 +6,7 @@ class RuntimeEngine(ABC):
     def load(self, model_path: str):
         pass
     @abstractmethod
-    def infer(self, input_image, input_size: Union[int, tuple[int, int]] = None):
+    def infer(self, input_image):
         pass
     @abstractmethod
     def preprocess(self, input_image, input_type, input_shape: Union[int | tuple[int, int]]):

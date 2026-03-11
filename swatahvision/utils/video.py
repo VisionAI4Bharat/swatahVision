@@ -27,7 +27,7 @@ class VideoInfo:
 
     Examples:
         ```python
-        import swatahvision as sv
+        import swatahVision as sv
 
         video_info = sv.VideoInfo.from_video_path(video_path=<SOURCE_VIDEO_FILE>)
 
@@ -74,7 +74,7 @@ class VideoSink:
 
     Example:
         ```python
-        import swatahvision as sv
+        import swatahVision as sv
 
         video_info = sv.VideoInfo.from_video_path(<SOURCE_VIDEO_PATH>)
         frames_generator = sv.get_video_frames_generator(<SOURCE_VIDEO_PATH>)
@@ -171,7 +171,7 @@ def get_video_frames_generator(
 
     Examples:
         ```python
-        import swatahvision as sv
+        import swatahVision as sv
 
         for frame in sv.get_video_frames_generator(source_path=<SOURCE_VIDEO_PATH>):
             ...
@@ -244,7 +244,7 @@ def process_video(
     Example:
         ```python
         import cv2
-        import swatahvision as sv
+        import swatahVision as sv
         from rfdetr import RFDETRMedium
 
         model = RFDETRMedium()
@@ -333,7 +333,7 @@ class FPSMonitor:
 
         Examples:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             frames_generator = sv.get_video_frames_generator(source_path=<SOURCE_FILE_PATH>)
             fps_monitor = sv.FPSMonitor()

@@ -1,17 +1,17 @@
 [project]
 name = "swatahVision"
-version = "26.03.0b1"
-description = "swatah vision Python package"
+version = "26.03.01rc1"
+description = "An open-source Vision AI stack for real-world applications"
 authors = [
     { name = "swatah.ai", email = "git@swatah.ai" }
 ]
 license = { text = "LGPL-3.0-or-later" }
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 
 classifiers = [
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.11",
     "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
     "Operating System :: OS Independent",
 ]
@@ -30,8 +30,9 @@ dependencies = [
 gpu = ["onnxruntime-gpu"]
 
 [project.urls]
-Homepage = "https://github.com/VisionAI4Bharat/swatahvision"
-Repository = "https://github.com/VisionAI4Bharat/swatahvision"
+Homepage = "https://github.com/VisionAI4Bharat/swatahVision"
+Repository = "https://github.com/VisionAI4Bharat/swatahVision"
+Documentation = "https://visionai4bharat.github.io/swatahVision"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
