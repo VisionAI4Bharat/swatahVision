@@ -6,7 +6,7 @@ import numpy as np
 from utils.general import find_in_list, load_zones_config
 from utils.timers import FPSBasedTimer
 
-import swatahvision as sv
+import swatahVision as sv
 
 COLORS = sv.ColorPalette.from_hex(["#E6194B", "#3CB44B", "#FFE119", "#3C76D1"])
 COLOR_ANNOTATOR = sv.ColorAnnotator(color=COLORS)

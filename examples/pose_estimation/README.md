@@ -6,8 +6,8 @@ This demo performs human pose estimation using the MoveNet model. It detects 17 
 - clone repository and navigate to example directory
 
     ```bash
-    git clone https://github.com/VisionAI4Bharat/swatahvision.git
-    cd swatahvision/examples/count_people_in_zone
+    git clone https://github.com/VisionAI4Bharat/swatahVision.git
+    cd swatahVision/examples/count_people_in_zone
     ```
 
 - setup python environment and activate it [optional]

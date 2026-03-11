@@ -1,5 +1,5 @@
-[SwatahVision - Models Hub](https://huggingface.co/swatah/swatahvision/tree/main)  
-[Download Sample Video](https://huggingface.co/datasets/swatah/swatahvision-examples/tree/main/sample-videos) 
+[swatahVision - Models Hub](https://huggingface.co/swatah/swatahVision/tree/main)  
+[Download Sample Video](https://huggingface.co/datasets/swatah/swatahVision-examples/tree/main/sample-videos) 
 
 # Tracking
 
@@ -10,8 +10,8 @@ This script provides functionality for processing videos using YOLOv11x-1280 for
 - clone repository and navigate to example directory
 
     ```bash
-    git clone https://github.com/VisionAI4Bharat/swatahvision.git
-    cd swatahvision/examples/speed-estimation    
+    git clone https://github.com/VisionAI4Bharat/swatahVision.git
+    cd swatahVision/examples/speed-estimation    
     ```
 
 - setup python environment and activate it [optional]

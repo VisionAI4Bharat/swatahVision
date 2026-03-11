@@ -1,5 +1,5 @@
-[SwatahVision - Models Hub](https://huggingface.co/swatah/swatahvision/tree/main)  
-[Download Sample Video](https://huggingface.co/datasets/swatah/swatahvision-examples/tree/main/sample-videos) 
+[swatahVision - Models Hub](https://huggingface.co/swatah/swatahVision/tree/main)  
+[Download Sample Video](https://huggingface.co/datasets/swatah/swatahVision-examples/tree/main/sample-videos) 
 
 
 # Heatmap and Tracking
@@ -13,8 +13,8 @@ supervision package for multiple tasks such as drawing heatmap annotations, trac
 - clone repository and navigate to example directory
 
     ```bash
-    git clone https://github.com/VisionAI4Bharat/swatahvision.git
-    cd swatahvision/examples/heatmap_and_track
+    git clone https://github.com/VisionAI4Bharat/swatahVision.git
+    cd swatahVision/examples/heatmap_and_track
     ```
 
 - setup python environment and activate it [optional]
@@ -36,7 +36,7 @@ supervision package for multiple tasks such as drawing heatmap annotations, trac
     YOLO model (yolov11x-1280.onnx). This file contains the trained model data necessary for object detection.
 - `--source_video_path` (optional): The path to the source video file that will be
     analyzed. This is the input video on which crowd analysis will be performed.
-    If not specified default is `people-walking.mp4` from swatahvision sample videos. 
+    If not specified default is `people-walking.mp4` from swatahVision sample videos. 
 - `--target_video_path` (optional): The path to save the output.mp4 video with annotations.
 - `--confidence_threshold` (optional): Sets the confidence threshold for the YOLO model
     to filter detections. Default is `0.3`. This determines how confident the model should

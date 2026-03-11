@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 from tqdm import tqdm
 
-import swatahvision as sv
+import swatahVision as sv
 
 COLORS = sv.ColorPalette.from_hex(["#E6194B", "#3CB44B", "#FFE119", "#3C76D1"])
 

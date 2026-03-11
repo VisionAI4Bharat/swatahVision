@@ -2,7 +2,7 @@ from datetime import datetime
 
 import numpy as np
 
-import swatahvision as sv
+import swatahVision as sv
 
 
 class FPSBasedTimer:

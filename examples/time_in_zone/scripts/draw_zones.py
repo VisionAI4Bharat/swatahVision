@@ -8,7 +8,7 @@ from typing import Any
 import cv2
 import numpy as np
 
-import swatahvision as sv
+import swatahVision as sv
 
 KEY_ENTER = 13
 KEY_NEWLINE = 10
