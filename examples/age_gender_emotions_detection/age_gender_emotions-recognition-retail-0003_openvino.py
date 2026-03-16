@@ -70,12 +70,9 @@ while True:
         if face.size == 0:
             continue
 
-        cv2.imwrite("face.jpg", face)
-
-        image = sv.Image.load_from_file("face.jpg")
-
+       
         # Age + Gender
-        outputs = age_gender_model(image)[0]
+        outputs = age_gender_model(face)[0]
 
         gender_blob = outputs[0]
         age_blob = outputs[1]
@@ -86,7 +83,7 @@ while True:
         age = int(age_blob[0][0][0][0] * 100)
 
         # Emotion
-        emo_out = emotion_model(image)[0]
+        emo_out = emotion_model(face)[0]
 
         emotion_id = int(np.argmax(emo_out))
         emotion = emotions[emotion_id]
