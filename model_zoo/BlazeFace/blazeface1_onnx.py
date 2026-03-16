@@ -10,7 +10,7 @@ box_annotator = sv.BoxAnnotator(sv.Color.YELLOW)
 # Load BlazeFace model
 # ---------------------------------------------
 model = sv.Model(
-    model="C:\\Users\\LENOVO\\Downloads\\blaze_fixed.onnx",
+    model="blazeface.onnx",
     engine=sv.Engine.ONNX,
     hardware=sv.Hardware.CPU
 )
@@ -18,7 +18,7 @@ model = sv.Model(
 # ---------------------------------------------
 # Load image
 # ---------------------------------------------
-image = sv.Image.load_from_file("C:\\Users\\LENOVO\\Downloads\\example1.png")
+image = sv.Image.load_from_file("assets/sample.jpg")
 
 # ---------------------------------------------
 # Run inference
