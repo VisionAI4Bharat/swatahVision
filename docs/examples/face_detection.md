@@ -94,19 +94,22 @@ Press **ESC** to exit.
 
 ---
 
-# 📊 Example Output
+## 📊 Example Output
 
 The output window will display:
+
 - Face bounding boxes
 - Confidence scores
 - Facial landmarks
 
 Example:
+
 - 0.92
 - 0.87
 - 0.76
 
 Each face shows:
+
 - Bounding Box + Confidence + Landmarks
 
 ---
