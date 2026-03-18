@@ -3,10 +3,10 @@
 This example demonstrates how to perform **real-time face detection**
 using **BlazeFace model** with the **swatahVision framework**.
 
-The script supports both::
+The script supports both:
 
-- **Webcam (real-time detection)**
-- **Video file processing**
+- Webcam (real-time detection)
+- Video file processing
 
 For each detected face, it provides:
 
@@ -92,6 +92,8 @@ python blazeface_onnx.py
 
 Press **ESC** to exit.
 
+---
+
 # 📊 Example Output
 
 The output window will display:
@@ -139,8 +141,8 @@ Landmark Extraction
 Draw Results (Box + Score + Landmarks)
       ↓
 Display Output
-
 ```
+
 ---
 
 # ⚠️ Notes
