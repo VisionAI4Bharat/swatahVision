@@ -77,7 +77,7 @@ pip install swatahVision
 ▶️ Run Webcam
 
 ```bash
-python blazeface_onnx.py
+model.run_webcam()
 ```
 ▶️ Run Video
 
