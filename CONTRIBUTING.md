@@ -54,5 +54,5 @@ When opening a pull request, please explain:
 
 For contribution-related questions or commercial discussions:
 
-**swatah.ai (swatah.ai is a trading name for NeuralSense AI Pvt. Ltd)**
-Email: info@swatah.ai
+**swatah.ai (swatah.ai is a trading name for NeuralSense AI Pvt. Ltd)**  
+Email: **info@swatah.ai**
