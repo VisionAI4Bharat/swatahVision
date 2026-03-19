@@ -140,4 +140,22 @@ cv2.imwrite("out.jpg", annotated)
 ```
 ## License
 
-This work is licensed under LGPL 3.0
+**swatahVision** is licensed under the **GNU Lesser General Public License v3.0 (LGPL-3.0)**.
+
+This repository is the **community core** of **swatahVision** and is intended to provide an open, reusable Vision AI framework for model loading, inference, post-processing, tracking, visualization, and related utilities.
+
+### Commercial and Enterprise Use
+
+Separate commercial offerings are available from **swatah.ai / NeuralSense AI Private Limited** for organizations that require:
+
+- enterprise-grade deployment tooling
+- hardened runtime and advanced exception handling
+- industrial or plant-system integrations
+- packaged commercial distributions
+- OEM / embedded / redistribution rights
+- customer-specific extensions
+- commercial support and maintenance
+
+Open-source use of this repository remains governed by **LGPL-3.0**.
+
+Commercial modules, enterprise extensions, and customer-specific deployments are licensed separately and are **not part of this repository unless explicitly stated**.
