@@ -1,6 +1,6 @@
 # Detections Core API
 
-This document explains how the **Detections class** in **SwatahVision** works.
+This document explains how the **Detections class** in **swatahvision** works.
 
 The `Detections` class is the **core data structure used for object detection results**.  
 It stores information about detected objects such as:
@@ -82,7 +82,7 @@ print(detections)
 
 # Creating Detections from Model Outputs
 
-SwatahVision provides helper methods to convert model outputs.
+swatahvision provides helper methods to convert model outputs.
 
 ## YOLO
 
@@ -333,7 +333,7 @@ Object: 0 Confidence: 0.87
 
 # Summary
 
-The `Detections` class is the **core structure used by SwatahVision for object detection results**.
+The `Detections` class is the **core structure used by swatahvision for object detection results**.
 
 It helps developers to:
 

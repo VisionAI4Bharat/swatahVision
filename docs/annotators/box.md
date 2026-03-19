@@ -51,7 +51,7 @@ This code uses the following libraries:
 
 - **NumPy** → handles numerical data
 - **OpenCV (cv2)** → draws rectangles on images
-- **SwatahVision modules** → manage detections and annotation tools
+- **swatahvision modules** → manage detections and annotation tools
 
 ---
 

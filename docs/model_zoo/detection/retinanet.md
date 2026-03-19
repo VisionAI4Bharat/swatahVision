@@ -1,7 +1,7 @@
-# RetinaNet Object Detection using SwatahVision
+# RetinaNet Object Detection using swatahvision
 
 This example demonstrates how to perform **object detection**
-using the **RetinaNet model** through the **SwatahVision framework**.
+using the **RetinaNet model** through the **swatahvision framework**.
 
 The model detects objects in an image and returns **bounding boxes,
 class labels, and confidence scores**.
@@ -41,7 +41,7 @@ Required files:
 - Python 3.9+
 - NumPy
 - OpenCV
-- SwatahVision
+- swatahvision
 
 ---
 

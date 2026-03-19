@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Any, Iterator, Self
+from typing import Any, Iterator
 from functools import reduce
 import numpy as np
 import cv2
@@ -58,7 +58,7 @@ class Detections:
     )
     
     @classmethod
-    def from_yolo(cls, yolo_results, conf_threshold: int=None, nms_threshold: float=None, class_agnostic: bool=False) -> Self:
+    def from_yolo(cls, yolo_results, conf_threshold: int=None, nms_threshold: float=None, class_agnostic: bool=False) -> "Detections":
         raw_outputs, meta = yolo_results
         
         output = raw_outputs[0]
@@ -100,7 +100,7 @@ class Detections:
         return detections
     
     @classmethod
-    def from_ssd(cls, ssd_results, conf_threshold: int=0.5) -> Self:
+    def from_ssd(cls, ssd_results, conf_threshold: int=0.5) -> "Detections":
         boxes, confidences, class_ids = ssd_results[0]
         
         mask = confidences > conf_threshold
@@ -119,7 +119,7 @@ class Detections:
         )
         
     @classmethod
-    def from_retinanet(cls, retinanet_results, conf_threshold: int=0.5) -> Self:
+    def from_retinanet(cls, retinanet_results, conf_threshold: int=0.5) -> "Detections":
         boxes, confidences, class_ids = retinanet_results[0]
         mask = confidences > conf_threshold
         
@@ -168,7 +168,7 @@ class Detections:
                 get_data_item(self.data, i),
             )
 
-    def __eq__(self, other: Self):
+    def __eq__(self, other: "Detections"):
         return all(
             [
                 np.array_equal(self.xyxy, other.xyxy),
@@ -184,7 +184,7 @@ class Detections:
     
     def __getitem__(
         self, index: int | slice | list[int] | np.ndarray | str
-    ) -> Self | list | np.ndarray | None:
+    ) -> Any:
         """
         Get a subset of the Detections object or access an item from its data field.
 
@@ -270,7 +270,7 @@ class Detections:
     
         
     @classmethod
-    def empty(cls) -> Self:
+    def empty(cls) -> "Detections":
         """
         Create an empty Detections object with no bounding boxes,
             confidences, or class IDs.
@@ -301,7 +301,7 @@ class Detections:
         return self == empty_detections
 
     @classmethod
-    def merge(cls, detections_list: list[Self]) -> Self:
+    def merge(cls, detections_list: list["Detections"]) -> "Detections":
         """
         Merge a list of Detections objects into a single Detections object.
 
@@ -476,7 +476,7 @@ class Detections:
         threshold: float = 0.5,
         class_agnostic: bool = False,
         overlap_metric: OverlapMetric = OverlapMetric.IOU,
-    ) -> Self:
+    ) -> "Detections":
         """
         Performs non-max suppression on detection set. If the detections result
         from a segmentation model, the IoU mask is applied. Otherwise, box IoU is used.
@@ -542,7 +542,7 @@ class Detections:
         threshold: float = 0.5,
         class_agnostic: bool = False,
         overlap_metric: OverlapMetric = OverlapMetric.IOU,
-    ) -> Self:
+    ) -> "Detections":
         """
         Perform non-maximum merging on the current set of object detections.
 

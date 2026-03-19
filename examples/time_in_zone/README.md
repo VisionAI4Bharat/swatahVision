@@ -1,4 +1,4 @@
-[SwatahVision - Models Hub](https://huggingface.co/swatah/swatahvision/tree/main)  
+[swatahvision - Models Hub](https://huggingface.co/swatah/swatahvision/tree/main)  
 [Download Sample Video](https://huggingface.co/datasets/swatah/swatahvision-examples/tree/main/sample-videos) 
 
 # Time in zone

@@ -1,5 +1,7 @@
 from swatahvision.model.base import Model
 
+from swatahvision.assets.downloader import Assets
+
 from swatahvision.core.detection.core import Detections
 from swatahvision.core.classification.core import Classification
 

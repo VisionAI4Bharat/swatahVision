@@ -11,7 +11,7 @@ Download Model : https://huggingface.co/swatah/swatahvision/tree/main/pose/moven
 * Keypoints parsing (17 COCO joints)
 * Skeleton visualization
 * Clean class-based architecture
-* Compatible with SwatahVision style parsers
+* Compatible with swatahvision style parsers
 
 ---
 
@@ -38,7 +38,7 @@ Install dependencies:
 pip install onnxruntime opencv-python numpy
 ```
 
-(Optional if using SwatahVision)
+(Optional if using swatahvision)
 
 ```bash
 pip install swatahvision
@@ -169,7 +169,7 @@ Pipeline:
 * Pose estimation
 * Real-time video pose
 * Visualization
-* Framework integration (SwatahVision)
+* Framework integration (swatahvision)
 
 ---
 

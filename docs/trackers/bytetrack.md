@@ -14,7 +14,7 @@ ByteTrack is widely used in:
 - Sports analytics
 - Crowd analysis
 
-The tracker works seamlessly with **SwatahVision Detections**.
+The tracker works seamlessly with **swatahvision Detections**.
 
 ---
 
@@ -250,7 +250,7 @@ ByteTrack relies on the following modules:
 - NumPy
 - Kalman Filter
 - IoU matching utilities
-- SwatahVision Detection module
+- swatahvision Detection module
 
 ---
 

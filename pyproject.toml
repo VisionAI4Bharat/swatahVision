@@ -1,5 +1,5 @@
 [project]
-name = "swatahVision"
+name = "swatahvision"
 version = "26.03.0b1"
 description = "swatah vision Python package"
 authors = [

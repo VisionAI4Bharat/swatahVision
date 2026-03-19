@@ -1,8 +1,8 @@
-# Age & Gender Prediction using SwatahVision (OpenVINO Engine)
+# Age & Gender Prediction using swatahvision (OpenVINO Engine)
 
 This example demonstrates how to perform **Age and Gender prediction**
 using the **age-gender-recognition-retail-0013** model through the  
-**SwatahVision framework**, powered internally by the **OpenVINO engine**.
+**swatahvision framework**, powered internally by the **OpenVINO engine**.
 
 The script loads two face images, runs inference on **CPU**,  
 and prints the predicted **age** and **gender** in the terminal.
@@ -44,7 +44,7 @@ Place both files inside your project root directory.
 - Python 3.9+
 - NumPy
 - OpenCV
-- SwatahVision
+- swatahvision
 
 ---
 
@@ -145,7 +145,7 @@ Predicted Gender: Male
 # 🧠 Model Information
 
 - **Model Name:** `age-gender-recognition-retail-0013`
-- **Framework:** SwatahVision
+- **Framework:** swatahvision
 - **Inference Engine:** OpenVINO (internal)
 - **Hardware:** CPU
 - **Age Output:** Normalized value × 100

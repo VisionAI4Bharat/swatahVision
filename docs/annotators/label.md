@@ -234,8 +234,8 @@ The LabelAnnotator relies on:
 
 - OpenCV (`cv2`)
 - NumPy
-- SwatahVision geometry utilities
-- SwatahVision detection modules
+- swatahvision geometry utilities
+- swatahvision detection modules
 
 ---
 

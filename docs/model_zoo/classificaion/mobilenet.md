@@ -2,7 +2,7 @@
 
 This example demonstrates how to perform **image classification**
 using the **MobileNetV2** model through the  
-**SwatahVision framework**, powered internally by the **OpenVINO engine**.
+**swatahvision framework**, powered internally by the **OpenVINO engine**.
 
 The script loads an input image, runs inference on **CPU**,  
 and prints the **top-5 predicted classes** in the terminal.
@@ -59,9 +59,9 @@ You may use **any object image** for classification.
 - Python 3.9+
 - NumPy
 - OpenCV
-- SwatahVision  
+- swatahvision  
 
-> OpenVINO is used internally by SwatahVision.  
+> OpenVINO is used internally by swatahvision.  
 > You do **NOT** need to write OpenVINO code manually.
 
 ---
@@ -118,7 +118,7 @@ print(classification)
 # 🧠 Model Information
 
 - **Model Name:** MobileNetV2  
-- **Framework:** SwatahVision  
+- **Framework:** swatahvision  
 - **Inference Engine:** OpenVINO (internal)  
 - **Hardware:** CPU  
 - **Task:** Image Classification  
