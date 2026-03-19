@@ -69,7 +69,7 @@ def draw_keypoints(
 # ---------------- Main ----------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Pose Estimation using MoveNet ONNX with swatahVision"
+        description="Pose Estimation using MoveNet ONNX with swatahvision"
     )
 
     parser.add_argument(

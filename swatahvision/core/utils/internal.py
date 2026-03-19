@@ -29,9 +29,9 @@ def format_warning(msg, category, filename, lineno, line=None):
 warnings.formatwarning = format_warning
 
 if os.getenv("SWATAHVISON_DEPRECATION_WARNING") == "0":
-    warnings.simplefilter("ignore", SwatahVisionWarnings)
+    warnings.simplefilter("ignore", swatahvisionWarnings)
 else:
-    warnings.simplefilter("always", SwatahVisionWarnings)
+    warnings.simplefilter("always", swatahvisionWarnings)
 
 
 def warn_deprecated(message: str):
@@ -41,7 +41,7 @@ def warn_deprecated(message: str):
     Args:
         message (str): The message to display when the function is called.
     """
-    warnings.warn(message, category=SwatahVisionWarnings, stacklevel=2)
+    warnings.warn(message, category=swatahvisionWarnings, stacklevel=2)
 
 
 def deprecated_parameter(

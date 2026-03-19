@@ -199,7 +199,7 @@ The TraceAnnotator relies on the following modules:
 - OpenCV (`cv2`)
 - NumPy
 - SciPy
-- swatahVision detection and drawing modules
+- swatahvision detection and drawing modules
 
 ---
 
