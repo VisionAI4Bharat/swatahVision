@@ -49,7 +49,7 @@ The code uses the following libraries:
 
 - **NumPy** → handles numerical data
 - **OpenCV (cv2)** → image processing and drawing
-- **swatahvision modules** → detections and annotation utilities
+- **swatahVision modules** → detections and annotation utilities
 
 ---
 

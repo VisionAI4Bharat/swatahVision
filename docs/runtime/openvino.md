@@ -1,6 +1,6 @@
-# OpenVINO Runtime Engine for swatahvision
+# OpenVINO Runtime Engine for swatahVision
 
-This code creates a **custom runtime engine** that allows **OpenVINO models** to run inside the **swatahvision framework**.
+This code creates a **custom runtime engine** that allows **OpenVINO models** to run inside the **swatahVision framework**.
 
 In simple terms, this code helps the system:
 
@@ -38,10 +38,10 @@ OpenVinoRuntimeEngine
 This class connects:
 
 ```
-swatahvision → OpenVINO Runtime
+swatahVision → OpenVINO Runtime
 ```
 
-This allows swatahvision to **run OpenVINO models easily**.
+This allows swatahVision to **run OpenVINO models easily**.
 
 ---
 
@@ -298,7 +298,7 @@ Return Prediction
 
 # Why This Code is Useful
 
-This engine makes it easier to run OpenVINO models in swatahvision.
+This engine makes it easier to run OpenVINO models in swatahVision.
 
 It provides:
 
@@ -314,7 +314,7 @@ It provides:
 This code acts as a bridge between:
 
 ```
-swatahvision Framework
+swatahVision Framework
         ↓
 OpenVINO Runtime Engine
         ↓
