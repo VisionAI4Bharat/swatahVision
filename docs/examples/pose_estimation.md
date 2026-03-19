@@ -1,9 +1,7 @@
 # Pose Estimation using MoveNet (ONNX)
 This project demonstrates **human pose estimation** using a MoveNet ONNX model.
 It supports image and video inference and provides structured pose outputs (keypoints + confidence) along with visualization.
---------------------------------------------------------------------------------------------------------------
-Download Model : https://huggingface.co/swatah/swatahvision/tree/main/pose/movenet
---------------------------------------------------------------------------------------------------------------
+
 ## 🚀 Features
 
 * MoveNet ONNX inference (CPU)
@@ -41,7 +39,7 @@ pip install onnxruntime opencv-python numpy
 (Optional if using swatahvision)
 
 ```bash
-pip install swatahvision
+pip install swatahVision
 ```
 
 ---
@@ -98,7 +96,7 @@ Move the generated file into the project folder.
 Example:
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 from pose import Pose
 
 model = sv.Model(

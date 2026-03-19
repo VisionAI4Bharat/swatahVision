@@ -162,7 +162,7 @@ max_line_length
 # Example Usage
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 image = ...
 detections = sv.Detections(...)
@@ -260,7 +260,3 @@ It is commonly used together with:
 to build complete **visualization pipelines for computer vision models**.
 
 ---
-
-## 👨‍💻 Author
-
-- **Atharva Kotkar**  

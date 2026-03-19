@@ -41,13 +41,21 @@ Means object ID 5 stayed 1 minute and 24 seconds in the zone.
 
 ---
 
+## 📥 Model Download
+
+Pretrained models for **swatahVision** are available in the Model Zoo.
+
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
+
+---
+
 ## 📁 Project Setup
 
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/VisionAI4Bharat/swatahvision.git
-cd swatahvision/examples/time_in_zone
+git clone https://github.com/VisionAI4Bharat/swatahVision.git
+cd swatahVision/examples/time_in_zone
 ```
 
 ---

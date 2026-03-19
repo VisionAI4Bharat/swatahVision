@@ -277,9 +277,3 @@ The `Classification` module provides:
 This abstraction simplifies the handling of classification outputs and ensures consistent processing across different models.
 
 ---
-
-# Authors
-
-**Atharva Kotkar**  
-**Aarav Agrawal**  
-MIT Internship – Swatah AI

@@ -1,7 +1,7 @@
 import argparse
 import cv2
 import numpy as np
-import swatahvision as sv
+import swatahVision as sv
 
 
 # ---------------- MoveNet Output Parser ----------------

@@ -274,7 +274,7 @@ This creates a **semi-transparent overlay**.
 Example usage in a video processing pipeline:
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 heat_map_annotator = sv.HeatMapAnnotator()
 

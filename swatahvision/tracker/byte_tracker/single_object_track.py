@@ -5,8 +5,8 @@ from enum import Enum
 import numpy as np
 import numpy.typing as npt
 
-from swatahvision.tracker.byte_tracker.kalman_filter import KalmanFilter
-from swatahvision.tracker.byte_tracker.utils import IdCounter
+from swatahVision.tracker.byte_tracker.kalman_filter import KalmanFilter
+from swatahVision.tracker.byte_tracker.utils import IdCounter
 
 
 class TrackState(Enum):

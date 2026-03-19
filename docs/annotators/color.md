@@ -261,7 +261,7 @@ This creates a **semi-transparent overlay**.
 Example of how this annotator can be used:
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 image = ...
 detections = sv.Detections(...)

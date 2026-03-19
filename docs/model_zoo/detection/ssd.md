@@ -57,7 +57,7 @@ Install the required dependencies:
 ```bash
 pip install numpy
 pip install opencv-python
-pip install swatahvision
+pip install swatahVision
 ```
 
 ---
@@ -75,7 +75,7 @@ ssdlite-mobilenetv3_openvino.py
 ## 🧪 Example Code
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 # ---------------------------------------------
 # Configure label annotation (text on bounding box)
@@ -150,9 +150,3 @@ The model returns:
 - Confidence scores
 
 ---
-
-## 👨‍💻 Authors
-
-- **Atharva Kotkar**  
-- **Aarav Agrawal**  
-- MIT Internship – Swatah AI

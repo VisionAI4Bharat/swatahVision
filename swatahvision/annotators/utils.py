@@ -6,10 +6,10 @@ from typing import Any
 
 import numpy as np
 
-from swatahvision.config import CLASS_NAME_DATA_FIELD
-from swatahvision.core.detection.core import Detections
-from swatahvision.draw.color import Color, ColorPalette
-from swatahvision.geometry.core import Position
+from swatahVision.config import CLASS_NAME_DATA_FIELD
+from swatahVision.core.detection.core import Detections
+from swatahVision.draw.color import Color, ColorPalette
+from swatahVision.geometry.core import Position
 
 PENDING_TRACK_COLOR = Color.GREY
 PENDING_TRACK_ID = -1

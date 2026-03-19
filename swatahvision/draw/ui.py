@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
-from swatahvision.draw.image import Image
-from swatahvision.core.classification.core import Classification
-from swatahvision.core.detection.core import Detections
+from swatahVision.draw.image import Image
+from swatahVision.core.classification.core import Classification
+from swatahVision.core.detection.core import Detections
 
 class UI():
     @staticmethod

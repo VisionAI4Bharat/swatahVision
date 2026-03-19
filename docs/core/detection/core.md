@@ -27,7 +27,7 @@ It also provides utilities for:
 Install the required libraries.
 
 ```bash
-pip install swatahvision
+pip install swatahVision
 pip install numpy
 pip install opencv-python
 ```
@@ -37,7 +37,7 @@ pip install opencv-python
 # Import Libraries
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 import numpy as np
 ```
 
@@ -67,7 +67,7 @@ Example:
 
 ```python
 import numpy as np
-import swatahvision as sv
+import swatahVision as sv
 
 detections = sv.Detections(
     xyxy=np.array([[50, 60, 200, 220]]),
@@ -278,7 +278,7 @@ You can get anchor positions inside bounding boxes.
 Example:
 
 ```python
-from swatahvision.geometry.core import Position
+from swatahVision.geometry.core import Position
 
 centers = detections.get_anchors_coordinates(Position.CENTER)
 print(centers)
@@ -302,7 +302,7 @@ Supported anchor positions:
 # Example Full Workflow
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 model = sv.Model(
     model="yolov8n.xml",
@@ -347,9 +347,3 @@ It helps developers to:
 This makes it easier to build **computer vision pipelines for real-world applications**.
 
 ---
-
-# Authors
-
-**Atharva Kotkar**  
-**Aarav Agrawal**  
-MIT Internship – Swatah AI

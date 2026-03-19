@@ -117,7 +117,7 @@ Updated detections with **tracker_id assigned**.
 # Example Usage
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 from ultralytics import YOLO
 
 model = YOLO("yolov8n.pt")
@@ -291,7 +291,3 @@ Key features:
 It is an essential component for building **real-time computer vision tracking systems**.
 
 ---
-
-## 👨‍💻 Author
-
-- **Atharva Kotkar** 

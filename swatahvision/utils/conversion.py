@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-from swatahvision.draw.base import ImageType
+from swatahVision.draw.base import ImageType
 
 
 def ensure_cv2_image_for_class_method(annotate_func):

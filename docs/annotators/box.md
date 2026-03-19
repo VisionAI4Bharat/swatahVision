@@ -230,7 +230,7 @@ return scene
 Example of how this annotator might be used:
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 image = ...
 detections = sv.Detections(...)

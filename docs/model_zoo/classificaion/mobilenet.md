@@ -25,10 +25,9 @@ mobilenet_classification/
 
 ## 📥 Model Download
 
-Download the MobileNetV2 model from Hugging Face:
+Pretrained models for **swatahVision** are available in the Model Zoo.
 
-🔗 **Model Repository:**  
-[https://huggingface.co/swatah/swatahvision/tree/main/classifiation/mobilenetv2](https://huggingface.co/swatah/swatahvision/tree/main/classifiation/mobilenetv2)
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 
 Download the following files:
 
@@ -80,7 +79,7 @@ conda activate swatah_env
 ```bash
 pip install numpy
 pip install opencv-python
-pip install swatahvision
+pip install swatahVision
 ```
 
 ---
@@ -96,7 +95,7 @@ python mobilenet_classification.py
 # 🧪 Complete Source Code
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 model = sv.Model(
     model="mobilenetv2.xml",
