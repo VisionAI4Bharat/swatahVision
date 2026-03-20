@@ -5,7 +5,6 @@ import swatahVision as sv
 # - ONNX inference engine
 # - Running on CPU
 # ---------------------------------------------
-
 model = sv.Model(
     model="mobilenetv2.onnx", engine=sv.Engine.ONNX, hardware=sv.Hardware.CPU
 )

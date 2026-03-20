@@ -1,23 +1,22 @@
-# SSD Object Detection using swatahvision
+# SSD Object Detection using swatahVision
 
 This example demonstrates how to perform **object detection**
 using the **SSD (Single Shot Detector)** model with the
-**swatahvision framework**.
+**swatahVision framework**.
 
 SSD is a fast and efficient deep learning model for detecting
 multiple objects in images.
 
 The script loads an image, performs inference using **OpenVINO
-through swatahvision**, and prints detected objects with confidence.
+through swatahVision**, and prints detected objects with confidence.
 
 ---
 
 ## 📥 Model Download
 
-Download the SSD model from the official swatahvision model repository.
+Pretrained models for **swatahVision** are available in the Model Zoo.
 
-🔗 **Model Repository:**  
-[SSD – swatahvision HuggingFace](https://huggingface.co/swatah/swatahvision/tree/main/detection/ssdlite-mobilenetv3)
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 
 Download the following files:
 
@@ -46,7 +45,7 @@ ssd/
 - Python 3.9+
 - NumPy
 - OpenCV
-- swatahvision
+- swatahVision
 
 ---
 

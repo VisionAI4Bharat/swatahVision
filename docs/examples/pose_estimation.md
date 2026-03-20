@@ -9,7 +9,15 @@ It supports image and video inference and provides structured pose outputs (keyp
 * Keypoints parsing (17 COCO joints)
 * Skeleton visualization
 * Clean class-based architecture
-* Compatible with swatahvision style parsers
+* Compatible with swatahVision style parsers
+
+---
+
+## 📥 Model Download
+
+Pretrained models for **swatahVision** are available in the Model Zoo.
+
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 
 ---
 
@@ -36,7 +44,7 @@ Install dependencies:
 pip install onnxruntime opencv-python numpy
 ```
 
-(Optional if using swatahvision)
+(Optional if using swatahVision)
 
 ```bash
 pip install swatahVision
@@ -167,7 +175,7 @@ Pipeline:
 * Pose estimation
 * Real-time video pose
 * Visualization
-* Framework integration (swatahvision)
+* Framework integration (swatahVision)
 
 ---
 
