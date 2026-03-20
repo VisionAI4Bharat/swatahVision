@@ -1,7 +1,7 @@
 import numpy as np
 
-from swatahvision.annotators.base import BaseAnnotator
-from swatahvision.annotators.utils import (
+from swatahVision.annotators.base import BaseAnnotator
+from swatahVision.annotators.utils import (
     PENDING_TRACK_ID,
     ColorLookup,
     Trace,
@@ -12,12 +12,12 @@ from swatahvision.annotators.utils import (
     validate_labels,
     wrap_text,
 )
-from swatahvision.draw.color import Color, ColorPalette
-from swatahvision.draw.base import ImageType
+from swatahVision.draw.color import Color, ColorPalette
+from swatahVision.draw.base import ImageType
 
-from swatahvision.core.detection.core import Detections
-from swatahvision.core.detection.utils.boxes import clip_boxes, spread_out_boxes
-from swatahvision.geometry.core import Position
+from swatahVision.core.detection.core import Detections
+from swatahVision.core.detection.utils.boxes import clip_boxes, spread_out_boxes
+from swatahVision.geometry.core import Position
 
 import cv2
 
@@ -213,7 +213,7 @@ class LabelAnnotator(_BaseLabelAnnotator):
 
         Example:
             ```python
-            import swatahvision as sv
+            import swatahVision as sv
 
             image = ...
             detections = sv.Detections(...)
@@ -233,7 +233,7 @@ class LabelAnnotator(_BaseLabelAnnotator):
             ```
 
         ![label-annotator-example](https://media.roboflow.com/
-        swatahvision-annotator-examples/label-annotator-example-purple.png)
+        swatahVision-annotator-examples/label-annotator-example-purple.png)
         """
         assert isinstance(scene, np.ndarray)
         validate_labels(labels, detections)

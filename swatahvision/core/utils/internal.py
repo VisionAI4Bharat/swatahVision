@@ -9,8 +9,8 @@ from typing import Any, Generic, TypeVar
 
 
 class SwatahVisionWarnings(Warning):
-    """SwatahVision warning category.
-    Set the deprecation warnings visibility for SwatahVision library.
+    """swatahVision warning category.
+    Set the deprecation warnings visibility for swatahVision library.
     You can set the environment variable SWATAHVISON_DEPRECATION_WARNING to '0' to
     disable the deprecation warnings.
     """

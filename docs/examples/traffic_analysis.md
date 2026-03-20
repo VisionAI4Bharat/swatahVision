@@ -43,6 +43,14 @@ This means the detected vehicle has tracking ID 7, which remains consistent whil
 
 ---
 
+## 📥 Model Download
+
+Pretrained models for **swatahVision** are available in the Model Zoo.
+
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -62,8 +70,8 @@ traffic_analysis/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/VisionAI4Bharat/swatahvision.git
-cd swatahvision/examples/traffic_analysis
+git clone https://github.com/VisionAI4Bharat/swatahVision.git
+cd swatahVision/examples/traffic_analysis
 ```
 
 ---

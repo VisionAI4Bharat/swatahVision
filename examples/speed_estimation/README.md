@@ -1,20 +1,20 @@
-[SwatahVision - Models Hub](https://huggingface.co/swatah/swatahvision/tree/main)  
-[Download Sample Video](https://huggingface.co/datasets/swatah/swatahvision-examples/tree/main/sample-videos) 
+[swatahVision - Models Hub](https://huggingface.co/swatah/swatahVision/tree/main)  
+[Download Sample Video](https://huggingface.co/datasets/swatah/swatahVision-examples/tree/main/sample-videos) 
 
 
 # Speed Estimation
 
 This example performs speed estimation analysis using various object-detection models
 and ByteTrack - a simple yet effective online multi-object tracking method. It uses the
-swatahvision package for multiple tasks such as tracking, annotations, etc.
+swatahVision package for multiple tasks such as tracking, annotations, etc.
 
 ## install
 
 - clone repository and navigate to example directory
 
     ```bash
-    git clone https://github.com/VisionAI4Bharat/swatahvision.git
-    cd swatahvision/examples/speed-estimation    
+    git clone https://github.com/VisionAI4Bharat/swatahVision.git
+    cd swatahVision/examples/speed-estimation    
     ```
 
 - setup python environment and activate it [optional]

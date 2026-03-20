@@ -1,9 +1,7 @@
 # Pose Estimation using MoveNet (ONNX)
 This project demonstrates **human pose estimation** using a MoveNet ONNX model.
 It supports image and video inference and provides structured pose outputs (keypoints + confidence) along with visualization.
---------------------------------------------------------------------------------------------------------------
-Download Model : https://huggingface.co/swatah/swatahvision/tree/main/pose/movenet
---------------------------------------------------------------------------------------------------------------
+
 ## 🚀 Features
 
 * MoveNet ONNX inference (CPU)
@@ -11,7 +9,15 @@ Download Model : https://huggingface.co/swatah/swatahvision/tree/main/pose/moven
 * Keypoints parsing (17 COCO joints)
 * Skeleton visualization
 * Clean class-based architecture
-* Compatible with SwatahVision style parsers
+* Compatible with swatahVision style parsers
+
+---
+
+## 📥 Model Download
+
+Pretrained models for **swatahVision** are available in the Model Zoo.
+
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 
 ---
 
@@ -38,10 +44,10 @@ Install dependencies:
 pip install onnxruntime opencv-python numpy
 ```
 
-(Optional if using SwatahVision)
+(Optional if using swatahVision)
 
 ```bash
-pip install swatahvision
+pip install swatahVision
 ```
 
 ---
@@ -98,7 +104,7 @@ Move the generated file into the project folder.
 Example:
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 from pose import Pose
 
 model = sv.Model(
@@ -169,7 +175,7 @@ Pipeline:
 * Pose estimation
 * Real-time video pose
 * Visualization
-* Framework integration (SwatahVision)
+* Framework integration (swatahVision)
 
 ---
 

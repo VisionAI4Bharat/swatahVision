@@ -1,5 +1,5 @@
 import cv2
-import swatahvision as sv
+import swatahVision as sv
 
 # ---------------------------------------------
 # Initialize BYTETracker for multi-object tracking
@@ -13,7 +13,7 @@ tracker = sv.ByteTrack(frame_rate=30)
 # - Running on GPU
 # ---------------------------------------------
 model = sv.Model(
-    model="retinanet-resnet50-fpn-13",
+    model="retinanet-resnet50-fpn-13.onnx",
     engine=sv.Engine.ONNX,
     hardware=sv.Hardware.GPU,
 )
@@ -38,7 +38,7 @@ label_annotator = sv.LabelAnnotator(
 # ---------------------------------------------
 # Load input video
 # ---------------------------------------------
-video_path = "tests/assets/people-walking.mp4"
+video_path = "people-walking.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Check if video opened successfully

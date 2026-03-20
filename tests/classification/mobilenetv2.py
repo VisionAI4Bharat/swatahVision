@@ -1,4 +1,4 @@
-import swatahvision as sv
+import swatahVision as sv
 
 # ---------------------------------------------
 # Load MobileNetV2 classification model
@@ -6,13 +6,13 @@ import swatahvision as sv
 # - Running on CPU
 # ---------------------------------------------
 model = sv.Model(
-    model="mobilenetv2-10", engine=sv.Engine.ONNX, hardware=sv.Hardware.CPU
+    model="mobilenetv2-10.onnx", engine=sv.Engine.ONNX, hardware=sv.Hardware.CPU
 )
 
 # ---------------------------------------------
 # Load input image from file
 # ---------------------------------------------
-image = sv.Image.load_from_file("assets/car.jpg")
+image = sv.Image.load_from_file("car.jpg")
 
 # ---------------------------------------------
 # Run image classification inference

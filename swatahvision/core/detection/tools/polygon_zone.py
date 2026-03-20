@@ -7,13 +7,13 @@ import cv2
 import numpy as np
 import numpy.typing as npt
 
-from swatahvision.core.detection.core import Detections
-from swatahvision.core.detection.utils.boxes import clip_boxes
-from swatahvision.core.detection.utils.converters import polygon_to_mask
-from swatahvision.draw.color import Color
-from swatahvision.draw.utils import draw_filled_polygon, draw_polygon, draw_text
-from swatahvision.geometry.core import Position
-from swatahvision.geometry.utils import get_polygon_center
+from swatahVision.core.detection.core import Detections
+from swatahVision.core.detection.utils.boxes import clip_boxes
+from swatahVision.core.detection.utils.converters import polygon_to_mask
+from swatahVision.draw.color import Color
+from swatahVision.draw.utils import draw_filled_polygon, draw_polygon, draw_text
+from swatahVision.geometry.core import Position
+from swatahVision.geometry.utils import get_polygon_center
 
 
 class PolygonZone:
@@ -38,7 +38,7 @@ class PolygonZone:
 
     Example:
         ```python
-        import swatahvision as sv
+        import swatahVision as sv
         from ultralytics import YOLO
         import numpy as np
         import cv2

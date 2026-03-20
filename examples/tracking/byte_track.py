@@ -1,5 +1,5 @@
 import cv2
-import swatahvision as sv
+import swatahVision as sv
 
 # ---------------------------------------------
 # Initialize BYTETracker for multi-object tracking

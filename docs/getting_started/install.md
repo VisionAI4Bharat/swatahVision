@@ -8,11 +8,12 @@ You can install swatahVision in a Python>=3.12 environment.
 === "Latest"
 
     ```sh
-    pip install swatahvision
+    pip install swatahVision
     ```
 
 === "1.1.*"
-
     ```sh
-    pip install swatahvision=="1.1.*"
+    pip install swatahVision=="1.1.*"
     ```
+
+    It is recommended to use the latest version, as it may include bug fixes and other improvements.

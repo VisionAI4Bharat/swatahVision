@@ -1,5 +1,8 @@
+# swatahVision
+
 <p align="center">
-  <img src="assets/cover.png" alt="SwatahVision Cover" width="100%">
+  <img src="https://raw.githubusercontent.com/visionai4bharat/swatahVision/main/assets/cover.png" 
+       alt="swatahVision Cover" width="100%">
 </p>
 
 
@@ -84,14 +87,14 @@ Handles model loading and inference execution.
 
 ### From source
 ```bash
-git clone https://github.com/VisionAI4Bharat/swatahvision.git
-cd swatahvision
+git clone https://github.com/VisionAI4Bharat/swatahVision.git
+cd swatahVision
 pip install -e .
 ```
 ## Quickstart
 ### Load a model and run inference
 ```
-import swatahvision as sv
+import swatahVision as sv
 
 model = sv.Model(
     model="path/to/model.onnx",
@@ -104,7 +107,7 @@ outputs = model(image, input_size=(640, 640))
 ### Detection
 #### Convert raw outputs to Detections
 ```
-import swatahvision as sv
+import swatahVision as sv
 
 detections = sv.Detections.from_yolo(
     outputs,
@@ -124,7 +127,7 @@ persons = detections[detections.class_id == 0]
 #### Draw boxes
 ```
 import cv2
-import swatahvision as sv
+import swatahVision as sv
 
 frame = cv2.imread("image.jpg")
 
@@ -138,4 +141,22 @@ cv2.imwrite("out.jpg", annotated)
 ```
 ## License
 
-This work is licensed under LGPL 3.0
+**swatahVision** is licensed under the **GNU Lesser General Public License v3.0 (LGPL-3.0)**.
+
+This repository is the **community core** of **swatahVision** and is intended to provide an open, reusable Vision AI framework for model loading, inference, post-processing, tracking, visualization, and related utilities.
+
+### Commercial and Enterprise Use
+
+Separate commercial offerings are available from **swatah.ai / NeuralSense AI Private Limited** for organizations that require:
+
+- enterprise-grade deployment tooling
+- hardened runtime and advanced exception handling
+- industrial or plant-system integrations
+- packaged commercial distributions
+- OEM / embedded / redistribution rights
+- customer-specific extensions
+- commercial support and maintenance
+
+Open-source use of this repository remains governed by **LGPL-3.0**.
+
+Commercial modules, enterprise extensions, and customer-specific deployments are licensed separately and are **not part of this repository unless explicitly stated**.

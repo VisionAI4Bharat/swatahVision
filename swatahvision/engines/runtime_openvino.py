@@ -1,18 +1,17 @@
 from typing import Union
-from swatahvision.engines.base import RuntimeEngine
-from swatahvision.constraints import Hardware
+from swatahVision.engines.base import RuntimeEngine
+from swatahVision.constraints import Hardware
 import openvino as ov
 import numpy as np
 import cv2
 
 class OpenVinoRuntimeEngine(RuntimeEngine):
-    def infer(self, input_image, input_size: Union[int, tuple[int, int]] = None):
+    def infer(self, input_image):
         
         # preprocessing can be added here
         input0_dtype = self.input_dtypes[self.input_names[0]]
 
-        if input_size is None:
-            input_size = tuple(self.input_shapes[self.input_names[0]])
+        input_size = tuple(self.input_shapes[self.input_names[0]])
             
         input_image, meta = self.preprocess(input_image, input0_dtype, input_size)
         
