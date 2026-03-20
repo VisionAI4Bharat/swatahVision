@@ -1,6 +1,6 @@
 [project]
 name = "swatahVision"
-version = "26.03.01rc1"
+version = "26.03.01"
 description = "An open-source Vision AI stack for real-world applications"
 authors = [
     { name = "swatah.ai", email = "git@swatah.ai" }
