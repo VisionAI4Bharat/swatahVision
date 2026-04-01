@@ -1,63 +1,52 @@
 import os
-from .list import IMAGE_ASSETS, VIDEO_ASSETS
+import requests
+
+from .list import ImageAssets, VideoAssets
+
+BASE_DIR = "assets"
+IMAGE_DIR = os.path.join(BASE_DIR, "images")
+VIDEO_DIR = os.path.join(BASE_DIR, "videos")
+
+os.makedirs(IMAGE_DIR, exist_ok=True)
+os.makedirs(VIDEO_DIR, exist_ok=True)
 
 
-class ImageAssets:
+def get_image(name):
+    asset = getattr(ImageAssets, name.upper(), None)
+    if not asset:
+        raise ValueError("Image not found")
 
-    def __init__(self):
-        self.base_dir = os.path.join(
-            os.path.dirname(__file__), "images"
-        )
-
-    def get(self, name: str):
-
-        name = name.upper()
-
-        if name not in IMAGE_ASSETS:
-            raise ValueError(f"[ERROR] Image asset '{name}' not found")
-
-        file_name = IMAGE_ASSETS[name]
-        file_path = os.path.join(self.base_dir, file_name)
-
-        if not os.path.exists(file_path):
-            raise FileNotFoundError(
-                f"[ERROR] File '{file_name}' missing in assets/images"
-            )
-
-        return file_path
+    return download_asset(asset, "image")
 
 
-class VideoAssets:
+def get_video(name):
+    asset = getattr(VideoAssets, name.upper(), None)
+    if not asset:
+        raise ValueError("Video not found")
 
-    def __init__(self):
-        self.base_dir = os.path.join(
-            os.path.dirname(__file__), "videos"
-        )
+    return download_asset(asset, "video")
 
-    def get(self, name: str):
+    
+def download_asset(asset, asset_type="image"):
+    filename = asset["filename"]
+    url = asset["url"]
 
-        name = name.upper()
+    if asset_type == "image":
+        local_path = os.path.join(IMAGE_DIR, filename)
+    else:
+        local_path = os.path.join(VIDEO_DIR, filename)
 
-        if name not in VIDEO_ASSETS:
-            raise ValueError(f"[ERROR] Video asset '{name}' not found")
+    # ✅ Already exists
+    if os.path.exists(local_path):
+        return local_path
 
-        file_name = VIDEO_ASSETS[name]
-        file_path = os.path.join(self.base_dir, file_name)
+    print(f"Downloading {filename}...")
 
-        if not os.path.exists(file_path):
-            raise FileNotFoundError(
-                f"[ERROR] File '{file_name}' missing in assets/videos"
-            )
+    response = requests.get(url)
+    if response.status_code != 200:
+        raise Exception("Download failed")
 
-        return file_path
+    with open(local_path, "wb") as f:
+        f.write(response.content)
 
-
-class Assets:
-
-    @staticmethod
-    def Image(name: str):
-        return ImageAssets().get(name)
-
-    @staticmethod
-    def Video(name: str):
-        return VideoAssets().get(name)
+    return local_path
