@@ -2,7 +2,15 @@
 
 This example demonstrates how to perform **image classification**
 using the **MobileNetV2** model through the  
-**SwatahVision framework**, powered internally by the **OpenVINO engine**.
+<<<<<<< HEAD
+<<<<<<< HEAD
+**swatahvision framework**, powered internally by the **OpenVINO engine**.
+=======
+**swatahVision framework**, powered internally by the **OpenVINO engine**.
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+**swatahVision framework**, powered internally by the **OpenVINO engine**.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 The script loads an input image, runs inference on **CPU**,  
 and prints the **top-5 predicted classes** in the terminal.
@@ -25,10 +33,9 @@ mobilenet_classification/
 
 ## 📥 Model Download
 
-Download the MobileNetV2 model from Hugging Face:
+Pretrained models for **swatahVision** are available in the Model Zoo.
 
-🔗 **Model Repository:**  
-[https://huggingface.co/swatah/swatahvision/tree/main/classifiation/mobilenetv2](https://huggingface.co/swatah/swatahvision/tree/main/classifiation/mobilenetv2)
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 
 Download the following files:
 
@@ -59,9 +66,21 @@ You may use **any object image** for classification.
 - Python 3.9+
 - NumPy
 - OpenCV
-- SwatahVision  
+<<<<<<< HEAD
+<<<<<<< HEAD
+- swatahvision  
 
-> OpenVINO is used internally by SwatahVision.  
+> OpenVINO is used internally by swatahvision.  
+=======
+- swatahVision  
+
+> OpenVINO is used internally by swatahVision.  
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- swatahVision  
+
+> OpenVINO is used internally by swatahVision.  
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 > You do **NOT** need to write OpenVINO code manually.
 
 ---
@@ -80,7 +99,7 @@ conda activate swatah_env
 ```bash
 pip install numpy
 pip install opencv-python
-pip install swatahvision
+pip install swatahVision
 ```
 
 ---
@@ -96,7 +115,7 @@ python mobilenet_classification.py
 # 🧪 Complete Source Code
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 model = sv.Model(
     model="mobilenetv2.xml",
@@ -118,7 +137,15 @@ print(classification)
 # 🧠 Model Information
 
 - **Model Name:** MobileNetV2  
-- **Framework:** SwatahVision  
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Framework:** swatahvision  
+=======
+- **Framework:** swatahVision  
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- **Framework:** swatahVision  
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 - **Inference Engine:** OpenVINO (internal)  
 - **Hardware:** CPU  
 - **Task:** Image Classification  

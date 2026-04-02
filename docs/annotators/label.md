@@ -162,7 +162,7 @@ max_line_length
 # Example Usage
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 image = ...
 detections = sv.Detections(...)
@@ -234,8 +234,18 @@ The LabelAnnotator relies on:
 
 - OpenCV (`cv2`)
 - NumPy
-- SwatahVision geometry utilities
-- SwatahVision detection modules
+<<<<<<< HEAD
+<<<<<<< HEAD
+- swatahvision geometry utilities
+- swatahvision detection modules
+=======
+- swatahVision geometry utilities
+- swatahVision detection modules
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- swatahVision geometry utilities
+- swatahVision detection modules
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 
@@ -259,8 +269,8 @@ It is commonly used together with:
 
 to build complete **visualization pipelines for computer vision models**.
 
+<<<<<<< HEAD
 ---
-
-## 👨‍💻 Author
-
-- **Atharva Kotkar**  
+=======
+---
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260

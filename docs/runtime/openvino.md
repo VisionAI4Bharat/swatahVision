@@ -1,6 +1,18 @@
-# OpenVINO Runtime Engine for SwatahVision
+<<<<<<< HEAD
+<<<<<<< HEAD
+# OpenVINO Runtime Engine for swatahvision
 
-This code creates a **custom runtime engine** that allows **OpenVINO models** to run inside the **SwatahVision framework**.
+This code creates a **custom runtime engine** that allows **OpenVINO models** to run inside the **swatahvision framework**.
+=======
+# OpenVINO Runtime Engine for swatahVision
+
+This code creates a **custom runtime engine** that allows **OpenVINO models** to run inside the **swatahVision framework**.
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+# OpenVINO Runtime Engine for swatahVision
+
+This code creates a **custom runtime engine** that allows **OpenVINO models** to run inside the **swatahVision framework**.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 In simple terms, this code helps the system:
 
@@ -38,10 +50,24 @@ OpenVinoRuntimeEngine
 This class connects:
 
 ```
-SwatahVision → OpenVINO Runtime
+<<<<<<< HEAD
+<<<<<<< HEAD
+swatahvision → OpenVINO Runtime
 ```
 
-This allows SwatahVision to **run OpenVINO models easily**.
+This allows swatahvision to **run OpenVINO models easily**.
+=======
+swatahVision → OpenVINO Runtime
+```
+
+This allows swatahVision to **run OpenVINO models easily**.
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+swatahVision → OpenVINO Runtime
+```
+
+This allows swatahVision to **run OpenVINO models easily**.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 
@@ -298,7 +324,15 @@ Return Prediction
 
 # Why This Code is Useful
 
-This engine makes it easier to run OpenVINO models in SwatahVision.
+<<<<<<< HEAD
+<<<<<<< HEAD
+This engine makes it easier to run OpenVINO models in swatahvision.
+=======
+This engine makes it easier to run OpenVINO models in swatahVision.
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+This engine makes it easier to run OpenVINO models in swatahVision.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 It provides:
 
@@ -314,7 +348,15 @@ It provides:
 This code acts as a bridge between:
 
 ```
-SwatahVision Framework
+<<<<<<< HEAD
+<<<<<<< HEAD
+swatahvision Framework
+=======
+swatahVision Framework
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+swatahVision Framework
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
         ↓
 OpenVINO Runtime Engine
         ↓

@@ -1,6 +1,18 @@
-# ONNX Runtime Engine for SwatahVision
+<<<<<<< HEAD
+<<<<<<< HEAD
+# ONNX Runtime Engine for swatahvision
 
-This code creates a **custom inference engine** that allows models in **ONNX format** to run inside the **SwatahVision framework**.
+This code creates a **custom inference engine** that allows models in **ONNX format** to run inside the **swatahvision framework**.
+=======
+# ONNX Runtime Engine for swatahVision
+
+This code creates a **custom inference engine** that allows models in **ONNX format** to run inside the **swatahVision framework**.
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+# ONNX Runtime Engine for swatahVision
+
+This code creates a **custom inference engine** that allows models in **ONNX format** to run inside the **swatahVision framework**.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 In simple terms, it helps the system:
 
@@ -37,9 +49,21 @@ OnnxRuntimeEngine
 
 This class connects:
 
-**SwatahVision → ONNX Runtime**
+<<<<<<< HEAD
+<<<<<<< HEAD
+**swatahvision → ONNX Runtime**
 
-So that SwatahVision can run ONNX models easily.
+So that swatahvision can run ONNX models easily.
+=======
+**swatahVision → ONNX Runtime**
+
+So that swatahVision can run ONNX models easily.
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+**swatahVision → ONNX Runtime**
+
+So that swatahVision can run ONNX models easily.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 
@@ -295,7 +319,15 @@ Return Prediction
 
 This engine allows:
 
-- Running ONNX models inside SwatahVision
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Running ONNX models inside swatahvision
+=======
+- Running ONNX models inside swatahVision
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- Running ONNX models inside swatahVision
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 - Supporting both CPU and GPU
 - Automatically handling image preprocessing
 - Supporting single and batch inputs
@@ -309,7 +341,15 @@ It simplifies the process of **deploying ONNX models in computer vision applicat
 This code builds a bridge between:
 
 ```
-SwatahVision Framework
+<<<<<<< HEAD
+<<<<<<< HEAD
+swatahvision Framework
+=======
+swatahVision Framework
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+swatahVision Framework
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
         ↓
 ONNX Runtime Engine
         ↓

@@ -1,7 +1,17 @@
 # swatahVision
 
 <p align="center">
-  <img src="assets/cover.png" alt="SwatahVision Cover" width="100%">
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <img src="assets/cover.png" alt="swatahvision Cover" width="100%">
+=======
+  <img src="https://raw.githubusercontent.com/visionai4bharat/swatahVision/main/assets/cover.png" 
+       alt="swatahVision Cover" width="100%">
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+  <img src="https://raw.githubusercontent.com/visionai4bharat/swatahVision/main/assets/cover.png" 
+       alt="swatahVision Cover" width="100%">
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 </p>
 
 
@@ -86,14 +96,14 @@ Handles model loading and inference execution.
 
 ### From source
 ```bash
-git clone https://github.com/VisionAI4Bharat/swatahvision.git
-cd swatahvision
+git clone https://github.com/VisionAI4Bharat/swatahVision.git
+cd swatahVision
 pip install -e .
 ```
 ## Quickstart
 ### Load a model and run inference
 ```
-import swatahvision as sv
+import swatahVision as sv
 
 model = sv.Model(
     model="path/to/model.onnx",
@@ -106,7 +116,7 @@ outputs = model(image, input_size=(640, 640))
 ### Detection
 #### Convert raw outputs to Detections
 ```
-import swatahvision as sv
+import swatahVision as sv
 
 detections = sv.Detections.from_yolo(
     outputs,
@@ -126,7 +136,7 @@ persons = detections[detections.class_id == 0]
 #### Draw boxes
 ```
 import cv2
-import swatahvision as sv
+import swatahVision as sv
 
 frame = cv2.imread("image.jpg")
 

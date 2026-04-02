@@ -1,5 +1,5 @@
-[SwatahVision - Models Hub](https://huggingface.co/swatah/swatahvision/tree/main)  
-[Download Sample Video](https://huggingface.co/datasets/swatah/swatahvision-examples/tree/main/sample-videos) 
+[swatahVision - Models Hub](https://huggingface.co/swatah/swatahVision/tree/main)  
+[Download Sample Video](https://huggingface.co/datasets/swatah/swatahVision-examples/tree/main/sample-videos) 
 
 # Count people in zone
 
@@ -13,8 +13,8 @@ video or display it live on the screen.
 - clone repository and navigate to example directory
 
     ```bash
-    git clone https://github.com/VisionAI4Bharat/swatahvision.git
-    cd swatahvision/examples/count_people_in_zone
+    git clone https://github.com/VisionAI4Bharat/swatahVision.git
+    cd swatahVision/examples/count_people_in_zone
     ```
 
 - setup python environment and activate it [optional]

@@ -1,9 +1,7 @@
 # Pose Estimation using MoveNet (ONNX)
 This project demonstrates **human pose estimation** using a MoveNet ONNX model.
 It supports image and video inference and provides structured pose outputs (keypoints + confidence) along with visualization.
---------------------------------------------------------------------------------------------------------------
-Download Model : https://huggingface.co/swatah/swatahvision/tree/main/pose/movenet
---------------------------------------------------------------------------------------------------------------
+
 ## 🚀 Features
 
 * MoveNet ONNX inference (CPU)
@@ -11,7 +9,25 @@ Download Model : https://huggingface.co/swatah/swatahvision/tree/main/pose/moven
 * Keypoints parsing (17 COCO joints)
 * Skeleton visualization
 * Clean class-based architecture
-* Compatible with SwatahVision style parsers
+<<<<<<< HEAD
+<<<<<<< HEAD
+* Compatible with swatahvision style parsers
+=======
+=======
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
+* Compatible with swatahVision style parsers
+
+---
+
+## 📥 Model Download
+
+Pretrained models for **swatahVision** are available in the Model Zoo.
+
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
+<<<<<<< HEAD
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 
@@ -38,10 +54,18 @@ Install dependencies:
 pip install onnxruntime opencv-python numpy
 ```
 
-(Optional if using SwatahVision)
+<<<<<<< HEAD
+<<<<<<< HEAD
+(Optional if using swatahvision)
+=======
+(Optional if using swatahVision)
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+(Optional if using swatahVision)
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ```bash
-pip install swatahvision
+pip install swatahVision
 ```
 
 ---
@@ -98,7 +122,7 @@ Move the generated file into the project folder.
 Example:
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 from pose import Pose
 
 model = sv.Model(
@@ -169,7 +193,15 @@ Pipeline:
 * Pose estimation
 * Real-time video pose
 * Visualization
-* Framework integration (SwatahVision)
+<<<<<<< HEAD
+<<<<<<< HEAD
+* Framework integration (swatahvision)
+=======
+* Framework integration (swatahVision)
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+* Framework integration (swatahVision)
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 

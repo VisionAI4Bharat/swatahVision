@@ -5,8 +5,8 @@ from enum import Enum
 import numpy as np
 import numpy.typing as npt
 
-from swatahvision.core.detection.utils.converters import polygon_to_mask
-from swatahvision.core.detection.utils.masks import resize_masks
+from swatahVision.core.detection.utils.converters import polygon_to_mask
+from swatahVision.core.detection.utils.masks import resize_masks
 
 
 class OverlapFilter(Enum):
@@ -112,7 +112,7 @@ def box_iou(
 
     Examples:
         ```
-        import swatahvision as sv
+        import swatahVision as sv
 
         box_true = [100, 100, 200, 200]
         box_detection = [150, 150, 250, 250]
@@ -191,7 +191,7 @@ def box_iou_batch(
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         boxes_true = np.array([
             [100, 100, 200, 200],
@@ -319,7 +319,7 @@ def box_iou_batch_with_jaccard(
     Examples:
         ```python
         import numpy as np
-        import swatahvision as sv
+        import swatahVision as sv
 
         boxes_true = [
             [10, 20, 30, 40],  # x, y, w, h

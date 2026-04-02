@@ -46,7 +46,15 @@ This code uses the following libraries:
 
 - **NumPy** → handles numerical data
 - **OpenCV (cv2)** → draws rectangles and blends images
-- **SwatahVision modules** → handle detections and annotation utilities
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **swatahvision modules** → handle detections and annotation utilities
+=======
+- **swatahVision modules** → handle detections and annotation utilities
+>>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- **swatahVision modules** → handle detections and annotation utilities
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 
@@ -261,7 +269,7 @@ This creates a **semi-transparent overlay**.
 Example of how this annotator can be used:
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 image = ...
 detections = sv.Detections(...)

@@ -1,4 +1,4 @@
-import swatahvision as sv
+import swatahVision as sv
 import numpy as np
 import cv2
 

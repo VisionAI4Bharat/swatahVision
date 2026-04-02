@@ -44,13 +44,21 @@ The count updates dynamically as people enter or leave the zone.
 
 ---
 
+## 📥 Model Download
+
+Pretrained models for **swatahVision** are available in the Model Zoo.
+
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
+
+---
+
 ## 📁 Project Setup
 
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/VisionAI4Bharat/swatahvision.git
-cd swatahvision/examples/count_people_in_zone
+git clone https://github.com/VisionAI4Bharat/swatahVision.git
+cd swatahVision/examples/count_people_in_zone
 ```
 
 ---
