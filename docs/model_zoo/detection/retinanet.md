@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # RetinaNet Object Detection using swatahvision
 
 This example demonstrates how to perform **object detection**
@@ -9,6 +10,12 @@ using the **RetinaNet model** through the **swatahvision framework**.
 This example demonstrates how to perform **object detection**
 using the **RetinaNet model** through the **swatahVision framework**.
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+# RetinaNet Object Detection using swatahVision
+
+This example demonstrates how to perform **object detection**
+using the **RetinaNet model** through the **swatahVision framework**.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 The model detects objects in an image and returns **bounding boxes,
 class labels, and confidence scores**.
@@ -48,10 +55,14 @@ Required files:
 - NumPy
 - OpenCV
 <<<<<<< HEAD
+<<<<<<< HEAD
 - swatahvision
 =======
 - swatahVision
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- swatahVision
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 

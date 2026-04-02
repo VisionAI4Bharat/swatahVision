@@ -50,10 +50,14 @@ The code uses the following libraries:
 - **NumPy** → handles numerical data
 - **OpenCV (cv2)** → image processing and drawing
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **swatahvision modules** → detections and annotation utilities
 =======
 - **swatahVision modules** → detections and annotation utilities
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- **swatahVision modules** → detections and annotation utilities
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 

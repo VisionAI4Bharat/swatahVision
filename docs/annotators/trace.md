@@ -200,10 +200,14 @@ The TraceAnnotator relies on the following modules:
 - NumPy
 - SciPy
 <<<<<<< HEAD
+<<<<<<< HEAD
 - swatahvision detection and drawing modules
 =======
 - swatahVision detection and drawing modules
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- swatahVision detection and drawing modules
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 

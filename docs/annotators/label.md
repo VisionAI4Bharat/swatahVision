@@ -235,12 +235,17 @@ The LabelAnnotator relies on:
 - OpenCV (`cv2`)
 - NumPy
 <<<<<<< HEAD
+<<<<<<< HEAD
 - swatahvision geometry utilities
 - swatahvision detection modules
 =======
 - swatahVision geometry utilities
 - swatahVision detection modules
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- swatahVision geometry utilities
+- swatahVision detection modules
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 
@@ -264,4 +269,8 @@ It is commonly used together with:
 
 to build complete **visualization pipelines for computer vision models**.
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260

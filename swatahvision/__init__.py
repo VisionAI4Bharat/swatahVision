@@ -16,6 +16,21 @@ from swatahVision.annotators.hitmap import HeatMapAnnotator
 from swatahVision.draw.image import Image
 from swatahVision.draw.color import ColorPalette, Color
 
+
+from swatahVision.core.detection.core import Detections
+from swatahVision.core.classification.core import Classification
+
+from swatahVision.draw.ui import UI
+
+from swatahVision.annotators.box import BoxAnnotator
+from swatahVision.annotators.label import LabelAnnotator
+from swatahVision.annotators.trace import TraceAnnotator
+from swatahVision.annotators.color import ColorAnnotator
+from swatahVision.annotators.hitmap import HeatMapAnnotator
+
+from swatahVision.draw.image import Image
+from swatahVision.draw.color import ColorPalette, Color
+
 from swatahVision.draw.utils import (
     calculate_optimal_line_thickness,
     calculate_optimal_text_scale,

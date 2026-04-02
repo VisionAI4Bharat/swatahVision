@@ -1,18 +1,23 @@
-# swatahvision
+# swatahVision
 
 <p align="center">
+<<<<<<< HEAD
 <<<<<<< HEAD
   <img src="assets/cover.png" alt="swatahvision Cover" width="100%">
 =======
   <img src="https://raw.githubusercontent.com/visionai4bharat/swatahVision/main/assets/cover.png" 
        alt="swatahVision Cover" width="100%">
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+  <img src="https://raw.githubusercontent.com/visionai4bharat/swatahVision/main/assets/cover.png" 
+       alt="swatahVision Cover" width="100%">
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 </p>
 
 
 ### An open-source Vision AI stack for real-world applications
 
-**swatahvision** is an **open-source Vision AI stack** that brings together **models, runtimes, post-processing, tracking, and visualization** into a clean, reusable Python package.
+**swatahVision** is an **open-source Vision AI stack** that brings together **models, runtimes, post-processing, tracking, and visualization** into a clean, reusable Python package.
 
 It’s built to make Vision AI **practical**: load a model, run inference, get structured outputs, visualize results, and ship pipelines faster — without reinventing glue-code every time.
 
@@ -20,9 +25,9 @@ It’s built to make Vision AI **practical**: load a model, run inference, get s
 
 ---
 
-## What is swatahvision?
+## What is swatahVision?
 
-swatahvision provides a unified interface for:
+swatahVision provides a unified interface for:
 
 - **Inference** across multiple runtimes (e.g., **ONNX Runtime**, **OpenVINO**)
 - **Vision tasks**

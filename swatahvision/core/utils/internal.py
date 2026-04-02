@@ -9,6 +9,7 @@ from typing import Any, Generic, TypeVar
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class swatahvisionWarnings(Warning):
     """swatahvision warning category.
     Set the deprecation warnings visibility for swatahvision library.
@@ -17,6 +18,11 @@ class SwatahVisionWarnings(Warning):
     """swatahVision warning category.
     Set the deprecation warnings visibility for swatahVision library.
 >>>>>>> 9275bb1 (v 26.03.01rc1)
+=======
+class SwatahVisionWarnings(Warning):
+    """swatahVision warning category.
+    Set the deprecation warnings visibility for swatahVision library.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
     You can set the environment variable SWATAHVISON_DEPRECATION_WARNING to '0' to
     disable the deprecation warnings.
     """
@@ -35,9 +41,9 @@ def format_warning(msg, category, filename, lineno, line=None):
 warnings.formatwarning = format_warning
 
 if os.getenv("SWATAHVISON_DEPRECATION_WARNING") == "0":
-    warnings.simplefilter("ignore", swatahvisionWarnings)
+    warnings.simplefilter("ignore", SwatahVisionWarnings)
 else:
-    warnings.simplefilter("always", swatahvisionWarnings)
+    warnings.simplefilter("always", SwatahVisionWarnings)
 
 
 def warn_deprecated(message: str):
@@ -47,7 +53,7 @@ def warn_deprecated(message: str):
     Args:
         message (str): The message to display when the function is called.
     """
-    warnings.warn(message, category=swatahvisionWarnings, stacklevel=2)
+    warnings.warn(message, category=SwatahVisionWarnings, stacklevel=2)
 
 
 def deprecated_parameter(

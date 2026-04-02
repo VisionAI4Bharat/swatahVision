@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # OpenVINO Runtime Engine for swatahvision
 
 This code creates a **custom runtime engine** that allows **OpenVINO models** to run inside the **swatahvision framework**.
@@ -7,6 +8,11 @@ This code creates a **custom runtime engine** that allows **OpenVINO models** to
 
 This code creates a **custom runtime engine** that allows **OpenVINO models** to run inside the **swatahVision framework**.
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+# OpenVINO Runtime Engine for swatahVision
+
+This code creates a **custom runtime engine** that allows **OpenVINO models** to run inside the **swatahVision framework**.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 In simple terms, this code helps the system:
 
@@ -45,6 +51,7 @@ This class connects:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 swatahvision → OpenVINO Runtime
 ```
 
@@ -55,6 +62,12 @@ swatahVision → OpenVINO Runtime
 
 This allows swatahVision to **run OpenVINO models easily**.
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+swatahVision → OpenVINO Runtime
+```
+
+This allows swatahVision to **run OpenVINO models easily**.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 
@@ -312,10 +325,14 @@ Return Prediction
 # Why This Code is Useful
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 This engine makes it easier to run OpenVINO models in swatahvision.
 =======
 This engine makes it easier to run OpenVINO models in swatahVision.
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+This engine makes it easier to run OpenVINO models in swatahVision.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 It provides:
 
@@ -332,10 +349,14 @@ This code acts as a bridge between:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 swatahvision Framework
 =======
 swatahVision Framework
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+swatahVision Framework
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
         ↓
 OpenVINO Runtime Engine
         ↓

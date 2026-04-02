@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # YOLO Object Detection using swatahvision
 
 This example demonstrates how to perform **object detection**
@@ -9,21 +10,32 @@ using the **YOLO model** with the **swatahvision framework**.
 This example demonstrates how to perform **object detection**
 using the **YOLO model** with the **swatahVision framework**.
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+# YOLO Object Detection using swatahVision
+
+This example demonstrates how to perform **object detection**
+using the **YOLO model** with the **swatahVision framework**.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 YOLO (**You Only Look Once**) is a real-time object detection model
 that detects multiple objects in a single forward pass of the network.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The script loads an image, runs inference using **OpenVINO through swatahvision**,
 =======
 The script loads an image, runs inference using **OpenVINO through swatahVision**,
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+The script loads an image, runs inference using **OpenVINO through swatahVision**,
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 and prints the detected objects with their confidence scores.
 
 ---
 
 ## 📥 Model Download
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Download the YOLO model from the official swatahvision model repository.
 
@@ -34,6 +46,11 @@ Pretrained models for **swatahVision** are available in the Model Zoo.
 
 🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+Pretrained models for **swatahVision** are available in the Model Zoo.
+
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 Download the following files:
 
@@ -63,10 +80,14 @@ yolo_example/
 - NumPy
 - OpenCV
 <<<<<<< HEAD
+<<<<<<< HEAD
 - swatahvision
 =======
 - swatahVision
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- swatahVision
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 

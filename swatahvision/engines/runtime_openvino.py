@@ -1,19 +1,22 @@
 from typing import Union
-<<<<<<< HEAD
+
 from swatahvision.engines.base import RuntimeEngine
 from swatahvision.constraints import Hardware
 #import openvino as ov
+
+from swatahVision.engines.base import RuntimeEngine
+from swatahVision.constraints import Hardware
+import openvino as ov
+
 import numpy as np
 import cv2
 
-class OpenVinoRuntimeEngine:
-    def __init__(self, *args, **kwargs):
-        pass
-
+class OpenVinoRuntimeEngine(RuntimeEngine):
     def infer(self, input_image):
+
         return "Dummy output (OpenVINO disabled)"
     
-=======
+
 from swatahVision.engines.base import RuntimeEngine
 from swatahVision.constraints import Hardware
 import openvino as ov
@@ -22,6 +25,7 @@ import cv2
 
 class OpenVinoRuntimeEngine(RuntimeEngine):
     def infer(self, input_image):
+
         
         # preprocessing can be added here
         input0_dtype = self.input_dtypes[self.input_names[0]]
@@ -72,7 +76,7 @@ class OpenVinoRuntimeEngine(RuntimeEngine):
                 
         return input_names, input_shapes, input_dtypes, output_names
     
-    def preprocess(cls, input_image, input_type, input_shape: Union[int | tuple[int, int]]):
+    def preprocess(cls, input_image, input_type, input_shape: tuple[int, int]):
         
         height, width = input_shape[-2:]
 
@@ -121,5 +125,8 @@ class OpenVinoRuntimeEngine(RuntimeEngine):
         else:
             processed = processed.astype(np.float32)  
         
+
         return processed, meta
->>>>>>> 9275bb1 (v 26.03.01rc1)
+
+        return processed, meta
+

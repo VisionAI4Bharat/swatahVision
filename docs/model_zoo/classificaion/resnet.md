@@ -3,10 +3,14 @@
 This example demonstrates how to perform **image classification**
 using the **ResNet-18** model through the  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **swatahvision framework**, powered internally by the **OpenVINO engine**.
 =======
 **swatahVision framework**, powered internally by the **OpenVINO engine**.
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+**swatahVision framework**, powered internally by the **OpenVINO engine**.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 The script loads an input image, runs inference on **CPU**,  
 and prints the **top-5 predicted classes** in the terminal.
@@ -63,6 +67,7 @@ You may use **any object image** for classification.
 - NumPy
 - OpenCV
 <<<<<<< HEAD
+<<<<<<< HEAD
 - swatahvision  
 
 > OpenVINO is used internally by swatahvision.  
@@ -71,6 +76,11 @@ You may use **any object image** for classification.
 
 > OpenVINO is used internally by swatahVision.  
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- swatahVision  
+
+> OpenVINO is used internally by swatahVision.  
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 > You do **NOT** need to write OpenVINO code manually.
 
 ---
@@ -146,10 +156,14 @@ print(classification)
 
 - **Model Name:** ResNet-18  
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Framework:** swatahvision  
 =======
 - **Framework:** swatahVision  
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- **Framework:** swatahVision  
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 - **Inference Engine:** OpenVINO (internal)  
 - **Hardware:** CPU  
 - **Task:** Image Classification  

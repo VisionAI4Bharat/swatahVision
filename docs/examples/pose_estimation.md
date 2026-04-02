@@ -10,8 +10,11 @@ It supports image and video inference and provides structured pose outputs (keyp
 * Skeleton visualization
 * Clean class-based architecture
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Compatible with swatahvision style parsers
 =======
+=======
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 * Compatible with swatahVision style parsers
 
 ---
@@ -21,7 +24,10 @@ It supports image and video inference and provides structured pose outputs (keyp
 Pretrained models for **swatahVision** are available in the Model Zoo.
 
 🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
+<<<<<<< HEAD
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 
@@ -49,10 +55,14 @@ pip install onnxruntime opencv-python numpy
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 (Optional if using swatahvision)
 =======
 (Optional if using swatahVision)
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+(Optional if using swatahVision)
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ```bash
 pip install swatahVision
@@ -184,10 +194,14 @@ Pipeline:
 * Real-time video pose
 * Visualization
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Framework integration (swatahvision)
 =======
 * Framework integration (swatahVision)
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+* Framework integration (swatahVision)
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 

@@ -15,10 +15,14 @@ ByteTrack is widely used in:
 - Crowd analysis
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The tracker works seamlessly with **swatahvision Detections**.
 =======
 The tracker works seamlessly with **swatahVision Detections**.
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+The tracker works seamlessly with **swatahVision Detections**.
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 
@@ -255,10 +259,14 @@ ByteTrack relies on the following modules:
 - Kalman Filter
 - IoU matching utilities
 <<<<<<< HEAD
+<<<<<<< HEAD
 - swatahvision Detection module
 =======
 - swatahVision Detection module
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- swatahVision Detection module
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 

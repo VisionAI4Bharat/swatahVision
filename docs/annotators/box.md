@@ -52,10 +52,14 @@ This code uses the following libraries:
 - **NumPy** → handles numerical data
 - **OpenCV (cv2)** → draws rectangles on images
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **swatahvision modules** → manage detections and annotation tools
 =======
 - **swatahVision modules** → manage detections and annotation tools
 >>>>>>> a64a1fb (doc 26.03.01rc1)
+=======
+- **swatahVision modules** → manage detections and annotation tools
+>>>>>>> bd163acb0252bcd1e9cb9d5690171f43e3ee9260
 
 ---
 

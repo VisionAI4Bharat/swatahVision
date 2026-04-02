@@ -1,14 +1,18 @@
-<<<<<<< HEAD
+
 site_name: swatahvision
 # site_url: https://github.com/VisionAI4Bharat/swatahvision
 
 repo_url: https://github.com/VisionAI4Bharat/swatahvision
 repo_name: VisionAI4Bharat/swatahvision
-=======
+
 site_name: swatahVision
 repo_url: https://github.com/VisionAI4Bharat/swatahVision
 repo_name: VisionAI4Bharat/swatahVision
->>>>>>> a64a1fb (doc 26.03.01rc1)
+
+site_name: swatahVision
+repo_url: https://github.com/VisionAI4Bharat/swatahVision
+repo_name: VisionAI4Bharat/swatahVision
+
 
 markdown_extensions:
   - pymdownx.superfences
@@ -79,3 +83,4 @@ nav:
       Object Detection : examples/tracking.md
       Traffic Analysis: examples/traffic_analysis.md
       Age Gender: examples/age_gender.md
+      Age Gender Emotion Detection: examples/emotion.md

@@ -2,6 +2,7 @@
 
 <p align="center">
 
+
   <img src="https://raw.githubusercontent.com/visionai4bharat/swatahVision/main/assets/cover.png" 
        alt="swatahVision Cover" width="100%">
 
@@ -10,7 +11,7 @@
 
 ### An open-source Vision AI stack for real-world applications
 
-**swatahvision** is an **open-source Vision AI stack** that brings together **models, runtimes, post-processing, tracking, and visualization** into a clean, reusable Python package.
+**swatahVision** is an **open-source Vision AI stack** that brings together **models, runtimes, post-processing, tracking, and visualization** into a clean, reusable Python package.
 
 It’s built to make Vision AI **practical**: load a model, run inference, get structured outputs, visualize results, and ship pipelines faster — without reinventing glue-code every time.
 
@@ -18,9 +19,9 @@ It’s built to make Vision AI **practical**: load a model, run inference, get s
 
 ---
 
-## What is swatahvision?
+## What is swatahVision?
 
-swatahvision provides a unified interface for:
+swatahVision provides a unified interface for:
 
 - **Inference** across multiple runtimes (e.g., **ONNX Runtime**, **OpenVINO**)
 - **Vision tasks**
@@ -143,4 +144,22 @@ cv2.imwrite("out.jpg", annotated)
 ```
 ## License
 
-This work is licensed under LGPL 3.0
+**swatahVision** is licensed under the **GNU Lesser General Public License v3.0 (LGPL-3.0)**.
+
+This repository is the **community core** of **swatahVision** and is intended to provide an open, reusable Vision AI framework for model loading, inference, post-processing, tracking, visualization, and related utilities.
+
+### Commercial and Enterprise Use
+
+Separate commercial offerings are available from **swatah.ai / NeuralSense AI Private Limited** for organizations that require:
+
+- enterprise-grade deployment tooling
+- hardened runtime and advanced exception handling
+- industrial or plant-system integrations
+- packaged commercial distributions
+- OEM / embedded / redistribution rights
+- customer-specific extensions
+- commercial support and maintenance
+
+Open-source use of this repository remains governed by **LGPL-3.0**.
+
+Commercial modules, enterprise extensions, and customer-specific deployments are licensed separately and are **not part of this repository unless explicitly stated**.
