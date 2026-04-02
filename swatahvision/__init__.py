@@ -2,6 +2,7 @@ from swatahVision.model.base import Model
 
 from .assets.downloader import get_image, get_video
 
+
 from swatahVision.core.detection.core import Detections
 from swatahVision.core.classification.core import Classification
 
