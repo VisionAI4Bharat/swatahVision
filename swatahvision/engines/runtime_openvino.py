@@ -58,7 +58,7 @@ class OpenVinoRuntimeEngine(RuntimeEngine):
                 
         return input_names, input_shapes, input_dtypes, output_names
     
-    def preprocess(cls, input_image, input_type, input_shape: Union[int | tuple[int, int]]):
+    def preprocess(cls, input_image, input_type, input_shape: tuple[int, int]):
         
         height, width = input_shape[-2:]
 
