@@ -3,6 +3,9 @@
 This example demonstrates how to perform **real-time Age, Gender, and Emotion prediction**
 using **OpenVINO retail models** through the **swatahVision framework**.
 
+![Age_gender_Demo gif](https://github.com/user-attachments/assets/c78ccc92-d7c5-4cdc-848b-f5f24d6a92d9)
+
+
 The script captures frames from the **webcam**, detects faces, and predicts:
 
 - **Age**
