@@ -12,8 +12,8 @@ model = sv.Model(
 # ---------------------------------------------
 # Load input image from file
 # ---------------------------------------------
-image = sv.Image.load_from_file("car.jpg")
-
+# image = sv.Image.load_from_file("car.jpg")
+image = sv.assets.downloader.get_image(sv.assets.list.ImageAssets.CAR)
 # ---------------------------------------------
 # Run image classification inference
 # ---------------------------------------------
