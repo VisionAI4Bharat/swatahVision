@@ -1,13 +1,13 @@
 import cv2
 import numpy as np
-from swatahVision.annotators.base import BaseAnnotator
-from swatahVision.draw.color import ColorPalette, Color
-from swatahVision.annotators.utils import ColorLookup, resolve_color
-from swatahVision.core.detection.core import Detections
-from swatahVision.utils.conversion import (
+from swatahvision.annotators.base import BaseAnnotator
+from swatahvision.draw.color import ColorPalette, Color
+from swatahvision.annotators.utils import ColorLookup, resolve_color
+from swatahvision.core.detection.core import Detections
+from swatahvision.utils.conversion import (
     ensure_cv2_image_for_class_method,
 )
-from swatahVision.draw.base import ImageType
+from swatahvision.draw.base import ImageType
 
 class ColorAnnotator(BaseAnnotator):
     """

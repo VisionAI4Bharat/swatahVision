@@ -1,6 +1,6 @@
 # Detections Core API
 
-This document explains how the **Detections class** in **swatahVision** works.
+This document explains how the **Detections class** in **swatahvision** works.
 
 The `Detections` class is the **core data structure used for object detection results**.  
 It stores information about detected objects such as:
@@ -27,7 +27,7 @@ It also provides utilities for:
 Install the required libraries.
 
 ```bash
-pip install swatahVision
+pip install swatahvision
 pip install numpy
 pip install opencv-python
 ```
@@ -37,7 +37,7 @@ pip install opencv-python
 # Import Libraries
 
 ```python
-import swatahVision as sv
+import swatahvision as sv
 import numpy as np
 ```
 
@@ -67,7 +67,7 @@ Example:
 
 ```python
 import numpy as np
-import swatahVision as sv
+import swatahvision as sv
 
 detections = sv.Detections(
     xyxy=np.array([[50, 60, 200, 220]]),
@@ -82,7 +82,7 @@ print(detections)
 
 # Creating Detections from Model Outputs
 
-swatahVision provides helper methods to convert model outputs.
+swatahvision provides helper methods to convert model outputs.
 
 ## YOLO
 
@@ -278,7 +278,7 @@ You can get anchor positions inside bounding boxes.
 Example:
 
 ```python
-from swatahVision.geometry.core import Position
+from swatahvision.geometry.core import Position
 
 centers = detections.get_anchors_coordinates(Position.CENTER)
 print(centers)
@@ -302,7 +302,7 @@ Supported anchor positions:
 # Example Full Workflow
 
 ```python
-import swatahVision as sv
+import swatahvision as sv
 
 model = sv.Model(
     model="yolov8n.xml",
@@ -333,7 +333,7 @@ Object: 0 Confidence: 0.87
 
 # Summary
 
-The `Detections` class is the **core structure used by swatahVision for object detection results**.
+The `Detections` class is the **core structure used by swatahvision for object detection results**.
 
 It helps developers to:
 

@@ -2,18 +2,18 @@ import cv2
 import numpy as np
 from scipy.interpolate import splev, splprep
 
-from swatahVision.annotators.base import BaseAnnotator
-from swatahVision.annotators.utils import (
+from swatahvision.annotators.base import BaseAnnotator
+from swatahvision.annotators.utils import (
     PENDING_TRACK_ID, 
     ColorLookup, 
     Trace, 
     resolve_color
 )
-from swatahVision.draw.base import ImageType
-from swatahVision.draw.color import Color, ColorPalette
-from swatahVision.geometry.core import Position
-from swatahVision.core.detection.core import Detections
-from swatahVision.utils.conversion import (
+from swatahvision.draw.base import ImageType
+from swatahvision.draw.color import Color, ColorPalette
+from swatahvision.geometry.core import Position
+from swatahvision.core.detection.core import Detections
+from swatahvision.utils.conversion import (
     ensure_cv2_image_for_class_method
 )
 
@@ -82,7 +82,7 @@ class TraceAnnotator(BaseAnnotator):
 
         Example:
             ```python
-            import swatahVision as sv
+            import swatahvision as sv
             from ultralytics import YOLO
 
             model = YOLO('yolov8x.pt')

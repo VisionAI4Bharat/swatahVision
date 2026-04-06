@@ -1,4 +1,4 @@
-swatahVision
+swatahvision
 numpy
 onnxruntime
 opencv-python

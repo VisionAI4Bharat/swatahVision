@@ -4,7 +4,7 @@ from collections import defaultdict, deque
 import cv2
 import numpy as np
 
-import swatahVision as sv
+import swatahvision as sv
 
 SOURCE = np.array([[1252, 787], [2298, 803], [5039, 2159], [-550, 2159]])
 
@@ -38,7 +38,7 @@ class ViewTransformer:
 
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Vehicle Speed Estimation using Swatahvision"
+        description="Vehicle Speed Estimation using swatahvision"
     )
     parser.add_argument(
         "--source_weights_path",

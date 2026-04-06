@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 from tqdm import tqdm
 
-import swatahVision as sv
+import swatahvision as sv
 
 COLORS = sv.ColorPalette.DEFAULT
 

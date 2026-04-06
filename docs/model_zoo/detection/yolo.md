@@ -1,21 +1,21 @@
-# YOLO Object Detection using swatahVision
+# YOLO Object Detection using swatahvision
 
 This example demonstrates how to perform **object detection**
-using the **YOLO model** with the **swatahVision framework**.
+using the **YOLO model** with the **swatahvision framework**.
 
 YOLO (**You Only Look Once**) is a real-time object detection model
 that detects multiple objects in a single forward pass of the network.
 
-The script loads an image, runs inference using **OpenVINO through swatahVision**,
+The script loads an image, runs inference using **OpenVINO through swatahvision**,
 and prints the detected objects with their confidence scores.
 
 ---
 
 ## 📥 Model Download
 
-Pretrained models for **swatahVision** are available in the Model Zoo.
+Pretrained models for **swatahvision** are available in the Model Zoo.
 
-🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
+🔗 [https://visionai4bharat.github.io/swatahvision/model_zoo/](https://visionai4bharat.github.io/swatahvision/model_zoo/)
 
 Download the following files:
 
@@ -44,7 +44,7 @@ yolo_example/
 - Python 3.9+
 - NumPy
 - OpenCV
-- swatahVision
+- swatahvision
 
 ---
 
@@ -55,7 +55,7 @@ Install the required dependencies:
 ```bash
 pip install numpy
 pip install opencv-python
-pip install swatahVision
+pip install swatahvision
 ```
 
 ---
@@ -73,7 +73,7 @@ yolov8n_openvino.py
 ## 🧪 Example Code
 
 ```python
-import swatahVision as sv
+import swatahvision as sv
 
 # ---------------------------------------------
 # Configure label annotation (text on bounding box)

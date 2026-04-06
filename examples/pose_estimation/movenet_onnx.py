@@ -1,7 +1,7 @@
 import argparse
 import cv2
 import numpy as np
-import swatahVision as sv
+import swatahvision as sv
 
 
 # ---------------- MoveNet Output Parser ----------------
@@ -69,7 +69,7 @@ def draw_keypoints(
 # ---------------- Main ----------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Pose Estimation using MoveNet ONNX with swatahVision"
+        description="Pose Estimation using MoveNet ONNX with swatahvision"
     )
 
     parser.add_argument(

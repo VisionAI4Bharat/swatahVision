@@ -1,4 +1,4 @@
-import swatahVision as sv
+import swatahvision as sv
 
 # ---------------------------------------------
 # Configure label annotation (text on bounding box)

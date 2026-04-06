@@ -1,6 +1,6 @@
-# Contributing to swatahVision
+# Contributing to swatahvision
 
-Thank you for your interest in contributing to **swatahVision**.
+Thank you for your interest in contributing to **swatahvision**.
 
 The goal of this repository is to maintain a strong and reusable community core for Vision AI.
 
@@ -37,7 +37,7 @@ The maintainers may decline contributions that are:
 By submitting a contribution to this repository, you agree that:
 
 1. your contribution may be distributed as part of this project under **LGPL-3.0**.
-2. accepted contributions may also be used by the project owner in commercial and enterprise distributions of **swatahVision**.
+2. accepted contributions may also be used by the project owner in commercial and enterprise distributions of **swatahvision**.
 
 If you do not agree to these terms, do not submit a contribution.
 

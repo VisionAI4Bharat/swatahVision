@@ -1,6 +1,6 @@
 from typing import Union
-from swatahVision.engines.base import RuntimeEngine
-from swatahVision.constraints import Hardware
+from swatahvision.engines.base import RuntimeEngine
+from swatahvision.constraints import Hardware
 import openvino as ov
 import numpy as np
 import cv2

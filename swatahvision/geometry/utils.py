@@ -1,6 +1,6 @@
 import numpy as np
 
-from swatahVision.geometry.core import Point
+from swatahvision.geometry.core import Point
 
 
 def get_polygon_center(polygon: np.ndarray) -> Point:
@@ -22,7 +22,7 @@ def get_polygon_center(polygon: np.ndarray) -> Point:
     Examples:
         ```python
         import numpy as np
-        import swatahVision as sv
+        import swatahvision as sv
 
         polygon = np.array([[0, 0], [0, 2], [2, 2], [2, 0]])
         sv.get_polygon_center(polygon=polygon)

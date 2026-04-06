@@ -130,7 +130,7 @@ This produces smoother curves instead of straight line segments.
 # Example Usage
 
 ```python
-import swatahVision as sv
+import swatahvision as sv
 from ultralytics import YOLO
 
 model = YOLO("yolov8x.pt")
@@ -199,7 +199,7 @@ The TraceAnnotator relies on the following modules:
 - OpenCV (`cv2`)
 - NumPy
 - SciPy
-- swatahVision detection and drawing modules
+- swatahvision detection and drawing modules
 
 ---
 

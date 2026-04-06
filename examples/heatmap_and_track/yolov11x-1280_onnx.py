@@ -2,7 +2,7 @@ import argparse
 
 import cv2
 
-import swatahVision as sv
+import swatahvision as sv
 
 def heatmap_and_track(
     source_weights_path: str,

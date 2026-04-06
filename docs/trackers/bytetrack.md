@@ -14,7 +14,7 @@ ByteTrack is widely used in:
 - Sports analytics
 - Crowd analysis
 
-The tracker works seamlessly with **swatahVision Detections**.
+The tracker works seamlessly with **swatahvision Detections**.
 
 ---
 
@@ -117,7 +117,7 @@ Updated detections with **tracker_id assigned**.
 # Example Usage
 
 ```python
-import swatahVision as sv
+import swatahvision as sv
 from ultralytics import YOLO
 
 model = YOLO("yolov8n.pt")
@@ -250,7 +250,7 @@ ByteTrack relies on the following modules:
 - NumPy
 - Kalman Filter
 - IoU matching utilities
-- swatahVision Detection module
+- swatahvision Detection module
 
 ---
 

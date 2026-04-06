@@ -1,7 +1,7 @@
-# BlazeFace Face Detection using swatahVision (ONNX Engine)
+# BlazeFace Face Detection using swatahvision (ONNX Engine)
 
 This example demonstrates how to perform **real-time face detection**
-using **BlazeFace model** with the **swatahVision framework**.
+using **BlazeFace model** with the **swatahvision framework**.
 
 The script supports both:
 
@@ -40,7 +40,7 @@ BlazeFace is a lightweight and fast face detector designed for real-time applica
 
 More models are available here:
 
-🔗 https://visionai4bharat.github.io/swatahVision/model_zoo/
+🔗 https://visionai4bharat.github.io/swatahvision/model_zoo/
 
 ---
 
@@ -49,7 +49,7 @@ More models are available here:
 - Python 3.9+
 - NumPy
 - OpenCV
-- swatahVision
+- swatahvision
 
 ---
 
@@ -67,7 +67,7 @@ conda activate swatah_env
 ```bash
 pip install numpy
 pip install opencv-python
-pip install swatahVision
+pip install swatahvision
 ```
 
 ---
@@ -118,7 +118,7 @@ Each face shows:
 
 | Property | Value |
 |------|------|
-| Framework | swatahVision |
+| Framework | swatahvision |
 | Engine | ONNX |
 | Hardware | CPU |
 | Model | BlazeFace |
@@ -151,7 +151,7 @@ Display Output
 # ⚠️ Notes
 
 - The model requires 128×128 input preprocessing
-- Manual preprocessing is used instead of default swatahVision preprocessing
+- Manual preprocessing is used instead of default swatahvision preprocessing
 - Landmark points are drawn manually (not part of sv.Detections)
 - Works best with clear frontal faces
 - Confidence threshold can be adjusted in code
@@ -161,7 +161,7 @@ Display Output
 
 # Summary
 
-This project demonstrates a **real-time face detection** system using BlazeFace and swatahVision.
+This project demonstrates a **real-time face detection** system using BlazeFace and swatahvision.
 
 Features include:
 

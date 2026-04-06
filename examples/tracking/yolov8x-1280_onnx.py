@@ -2,7 +2,7 @@ import argparse
 
 from tqdm import tqdm
 
-import swatahVision as sv
+import swatahvision as sv
 
 def process_video(
     source_weights_path: str,
