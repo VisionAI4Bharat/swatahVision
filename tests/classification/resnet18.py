@@ -1,4 +1,4 @@
-import swatahvision as sv
+import swatahVision as sv
 
 # ---------------------------------------------
 # Load ResNet-18 classification model

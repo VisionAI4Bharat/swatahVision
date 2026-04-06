@@ -1,14 +1,14 @@
-# swatahvision
+# swatahVision
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/visionai4bharat/swatahvision/main/assets/cover.png" 
-       alt="swatahvision Cover" width="100%">
+  <img src="https://raw.githubusercontent.com/visionai4bharat/swatahVision/main/assets/cover.png" 
+       alt="swatahVision Cover" width="100%">
 </p>
 
 
 ### An open-source Vision AI stack for real-world applications
 
-**swatahvision** is an **open-source Vision AI stack** that brings together **models, runtimes, post-processing, tracking, and visualization** into a clean, reusable Python package.
+**swatahVision** is an **open-source Vision AI stack** that brings together **models, runtimes, post-processing, tracking, and visualization** into a clean, reusable Python package.
 
 It’s built to make Vision AI **practical**: load a model, run inference, get structured outputs, visualize results, and ship pipelines faster — without reinventing glue-code every time.
 
@@ -16,9 +16,9 @@ It’s built to make Vision AI **practical**: load a model, run inference, get s
 
 ---
 
-## What is swatahvision?
+## What is swatahVision?
 
-swatahvision provides a unified interface for:
+swatahVision provides a unified interface for:
 
 - **Inference** across multiple runtimes (e.g., **ONNX Runtime**, **OpenVINO**)
 - **Vision tasks**
@@ -87,14 +87,14 @@ Handles model loading and inference execution.
 
 ### From source
 ```bash
-git clone https://github.com/VisionAI4Bharat/swatahvision.git
-cd swatahvision
+git clone https://github.com/VisionAI4Bharat/swatahVision.git
+cd swatahVision
 pip install -e .
 ```
 ## Quickstart
 ### Load a model and run inference
 ```
-import swatahvision as sv
+import swatahVision as sv
 
 model = sv.Model(
     model="path/to/model.onnx",
@@ -107,7 +107,7 @@ outputs = model(image, input_size=(640, 640))
 ### Detection
 #### Convert raw outputs to Detections
 ```
-import swatahvision as sv
+import swatahVision as sv
 
 detections = sv.Detections.from_yolo(
     outputs,
@@ -127,7 +127,7 @@ persons = detections[detections.class_id == 0]
 #### Draw boxes
 ```
 import cv2
-import swatahvision as sv
+import swatahVision as sv
 
 frame = cv2.imread("image.jpg")
 

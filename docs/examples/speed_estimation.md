@@ -60,9 +60,9 @@ speed_estimation/
 
 ## 📥 Model Download
 
-Pretrained models for **swatahvision** are available in the Model Zoo.
+Pretrained models for **swatahVision** are available in the Model Zoo.
 
-🔗 [https://visionai4bharat.github.io/swatahvision/model_zoo/](https://visionai4bharat.github.io/swatahvision/model_zoo/)
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 
 ---
 
@@ -71,8 +71,8 @@ Pretrained models for **swatahvision** are available in the Model Zoo.
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/VisionAI4Bharat/swatahvision.git
-cd swatahvision/examples/speed_estimation
+git clone https://github.com/VisionAI4Bharat/swatahVision.git
+cd swatahVision/examples/speed_estimation
 ```
 
 ---

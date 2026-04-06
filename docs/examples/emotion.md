@@ -1,7 +1,7 @@
-# Age, Gender & Emotion Detection using swatahvision (OpenVINO Engine)
+# Age, Gender & Emotion Detection using swatahVision (OpenVINO Engine)
 
 This example demonstrates how to perform **real-time Age, Gender, and Emotion prediction**
-using **OpenVINO retail models** through the **swatahvision framework**.
+using **OpenVINO retail models** through the **swatahVision framework**.
 
 The script captures frames from the **webcam**, detects faces, and predicts:
 
@@ -40,7 +40,7 @@ These models are part of the **OpenVINO Model Zoo**.
 
 More models are available here:
 
-🔗 https://visionai4bharat.github.io/swatahvision/model_zoo/
+🔗 https://visionai4bharat.github.io/swatahVision/model_zoo/
 
 ---
 
@@ -49,7 +49,7 @@ More models are available here:
 - Python 3.9+
 - NumPy
 - OpenCV
-- swatahvision
+- swatahVision
 
 ---
 
@@ -67,7 +67,7 @@ conda activate swatah_env
 ```bash
 pip install numpy
 pip install opencv-python
-pip install swatahvision
+pip install swatahVision
 ```
 
 ---
@@ -114,7 +114,7 @@ Gender Age | Emotion
 
 | Property | Value |
 |------|------|
-| Framework | swatahvision |
+| Framework | swatahVision |
 | Engine | OpenVINO |
 | Hardware | CPU |
 | Age/Gender Model | age-gender-recognition-retail-0013 |
@@ -136,7 +136,7 @@ Gender Age | Emotion
 
 # Summary
 
-This project demonstrates a **real-time face analysis system** using swatahvision and OpenVINO.
+This project demonstrates a **real-time face analysis system** using swatahVision and OpenVINO.
 
 The pipeline performs:
 

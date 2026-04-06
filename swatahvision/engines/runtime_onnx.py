@@ -1,6 +1,6 @@
 from typing import Union
-from swatahvision.engines.base import RuntimeEngine
-from swatahvision.constraints import Hardware
+from swatahVision.engines.base import RuntimeEngine
+from swatahVision.constraints import Hardware
 import onnxruntime as ort
 import numpy as np
 import cv2

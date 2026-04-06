@@ -1,6 +1,6 @@
 # Commercial Licensing
 
-The public **swatahvision** repository contains the **community core** licensed under the **GNU Lesser General Public License v3.0 (LGPL-3.0)**.
+The public **swatahVision** repository contains the **community core** licensed under the **GNU Lesser General Public License v3.0 (LGPL-3.0)**.
 
 In addition to the community core, **swatah.ai / NeuralSense AI Private Limited** offers separate commercial licensing for organizations that require production-grade deployment, enterprise integrations, or proprietary distribution rights.
 

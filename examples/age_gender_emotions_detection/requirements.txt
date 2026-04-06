@@ -1,3 +1,3 @@
-swatahvision
+swatahVision
 numpy
 opencv-python

@@ -10,7 +10,7 @@ from typing import Optional
 import requests
 from tqdm import tqdm
 
-from swatahvision.utils.file import get_cache_dir
+from swatahVision.utils.file import get_cache_dir
 from swatahvision.assets.list import AssetInfo
 
 logger = logging.getLogger(__name__)
@@ -43,7 +43,7 @@ def _download(url: str, dest: Path, expected_checksum: Optional[str] = None) -> 
         try:
             logger.info(f"Downloading {dest.name} (attempt {attempt})")
 
-            headers = {"User-Agent": "swatahvision"}
+            headers = {"User-Agent": "swatahVision"}
             start = temp.stat().st_size if temp.exists() else 0
             if start:
                 headers["Range"] = f"bytes={start}-"
@@ -86,7 +86,7 @@ def _download(url: str, dest: Path, expected_checksum: Optional[str] = None) -> 
 
 class AssetDownloader:
     def __init__(self):
-        base = get_cache_dir() / "swatahvision"
+        base = get_cache_dir() / "swatahVision"
         self.dirs = {
             "image": base / "images",
             "video": base / "videos",

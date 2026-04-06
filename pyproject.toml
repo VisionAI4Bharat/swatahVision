@@ -1,5 +1,5 @@
 [project]
-name = "swatahvision"
+name = "swatahVision"
 version = "26.03.01"
 description = "An open-source Vision AI stack for real-world applications"
 authors = [
@@ -30,9 +30,9 @@ dependencies = [
 gpu = ["onnxruntime-gpu"]
 
 [project.urls]
-Homepage = "https://github.com/VisionAI4Bharat/swatahvision"
-Repository = "https://github.com/VisionAI4Bharat/swatahvision"
-Documentation = "https://visionai4bharat.github.io/swatahvision"
+Homepage = "https://github.com/VisionAI4Bharat/swatahVision"
+Repository = "https://github.com/VisionAI4Bharat/swatahVision"
+Documentation = "https://visionai4bharat.github.io/swatahVision"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]

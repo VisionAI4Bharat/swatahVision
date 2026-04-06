@@ -1,5 +1,5 @@
-from swatahvision.model.resolver import ModelResolver
-from swatahvision.constraints import Engine, Hardware
+from swatahVision.model.resolver import ModelResolver
+from swatahVision.constraints import Engine, Hardware
 from typing import Union
 
 

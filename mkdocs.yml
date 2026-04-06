@@ -1,6 +1,6 @@
-site_name: swatahvision
-repo_url: https://github.com/VisionAI4Bharat/swatahvision
-repo_name: VisionAI4Bharat/swatahvision
+site_name: swatahVision
+repo_url: https://github.com/VisionAI4Bharat/swatahVision
+repo_name: VisionAI4Bharat/swatahVision
 
 markdown_extensions:
   - pymdownx.superfences

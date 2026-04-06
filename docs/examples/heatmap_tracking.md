@@ -24,9 +24,9 @@ It processes a video to:
 
 ## 📥 Model Download
 
-Pretrained models for **swatahvision** are available in the Model Zoo.
+Pretrained models for **swatahVision** are available in the Model Zoo.
 
-🔗 [https://visionai4bharat.github.io/swatahvision/model_zoo/](https://visionai4bharat.github.io/swatahvision/model_zoo/)
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 
 ---
 
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 Or manually:
 
 ```bash
-pip install opencv-python numpy onnxruntime swatahvision
+pip install opencv-python numpy onnxruntime swatahVision
 ```
 
 ---

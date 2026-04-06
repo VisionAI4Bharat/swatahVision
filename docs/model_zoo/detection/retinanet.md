@@ -1,7 +1,7 @@
-# RetinaNet Object Detection using swatahvision
+# RetinaNet Object Detection using swatahVision
 
 This example demonstrates how to perform **object detection**
-using the **RetinaNet model** through the **swatahvision framework**.
+using the **RetinaNet model** through the **swatahVision framework**.
 
 The model detects objects in an image and returns **bounding boxes,
 class labels, and confidence scores**.
@@ -23,9 +23,9 @@ retinanet_example/
 
 ## 📥 Model Download
 
-Pretrained models for **swatahvision** are available in the Model Zoo.
+Pretrained models for **swatahVision** are available in the Model Zoo.
 
-🔗 [https://visionai4bharat.github.io/swatahvision/model_zoo/](https://visionai4bharat.github.io/swatahvision/model_zoo/)
+🔗 [https://visionai4bharat.github.io/swatahVision/model_zoo/](https://visionai4bharat.github.io/swatahVision/model_zoo/)
 
 
 Required files:
@@ -40,7 +40,7 @@ Required files:
 - Python 3.9+
 - NumPy
 - OpenCV
-- swatahvision
+- swatahVision
 
 ---
 
@@ -49,7 +49,7 @@ Required files:
 ```bash
 pip install numpy
 pip install opencv-python
-pip install swatahvision
+pip install swatahVision
 ```
 
 ---
@@ -65,7 +65,7 @@ retinanet-resnet50-fpn_openvino.py
 # 🧪 Example Code
 
 ```python
-import swatahvision as sv
+import swatahVision as sv
 
 # ---------------------------------------------
 # Configure label annotation (text on bounding box)

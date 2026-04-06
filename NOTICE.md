@@ -1,6 +1,6 @@
 Copyright © NeuralSense AI Private Limited.
 
-**swatah.ai** and **swatahvision** are trademarks, product names, or brand identifiers associated with NeuralSense AI Private Limited, unless otherwise stated.
+**swatah.ai** and **swatahVision** are trademarks, product names, or brand identifiers associated with NeuralSense AI Private Limited, unless otherwise stated.
 
 This repository is licensed under the GNU Lesser General Public License v3.0 (LGPL-3.0), unless a file or component explicitly states otherwise.
 
