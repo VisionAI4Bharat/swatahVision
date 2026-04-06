@@ -3,7 +3,7 @@
 
 # Tracking
 
-This script provides functionality for processing videos using YOLOv11x-1280 for object detection and swatahVision for tracking and annotation.
+This script provides functionality for processing videos using YOLOv11x-1280 for object detection and swatahvision for tracking and annotation.
 
 ## install
 

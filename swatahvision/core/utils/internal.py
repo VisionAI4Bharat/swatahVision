@@ -8,9 +8,9 @@ from collections.abc import Callable
 from typing import Any, Generic, TypeVar
 
 
-class swatahVisionWarnings(Warning):
+class SwatahVisionWarnings(Warning):
     """swatahVision warning category.
-    Set the deprecation warnings visibility for swatahVision library.
+    Set the deprecation warnings visibility for SwatahVision library.
     You can set the environment variable SWATAHVISON_DEPRECATION_WARNING to '0' to
     disable the deprecation warnings.
     """
@@ -29,9 +29,9 @@ def format_warning(msg, category, filename, lineno, line=None):
 warnings.formatwarning = format_warning
 
 if os.getenv("SWATAHVISON_DEPRECATION_WARNING") == "0":
-    warnings.simplefilter("ignore", swatahVisionWarnings)
+    warnings.simplefilter("ignore", SwatahVisionWarnings)
 else:
-    warnings.simplefilter("always", swatahVisionWarnings)
+    warnings.simplefilter("always", SwatahVisionWarnings)
 
 
 def warn_deprecated(message: str):
@@ -41,7 +41,7 @@ def warn_deprecated(message: str):
     Args:
         message (str): The message to display when the function is called.
     """
-    warnings.warn(message, category=swatahVisionWarnings, stacklevel=2)
+    warnings.warn(message, category=SwatahVisionWarnings, stacklevel=2)
 
 
 def deprecated_parameter(

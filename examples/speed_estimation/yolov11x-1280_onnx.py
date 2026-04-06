@@ -38,7 +38,7 @@ class ViewTransformer:
 
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Vehicle Speed Estimation using swatahVision"
+        description="Vehicle Speed Estimation using swatahvision"
     )
     parser.add_argument(
         "--source_weights_path",
